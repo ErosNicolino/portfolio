@@ -1,7 +1,7 @@
 # Portfólio de Eros Nicolino
 
 Bem-vindo ao meu portfólio! Este site apresenta meus projetos, habilidades e informações de contato. Ele foi desenvolvido com foco em **apresentação profissional**, responsividade e uma experiência visual moderna.
-https://erosnicolino.github.io/portfolio
+- https://erosnicolino.github.io/portfolio
 
 ## Sobre o Portfólio
 

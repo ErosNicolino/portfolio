@@ -66,9 +66,3 @@ cd portifolio
 - GitHub: [https://github.com/ErosNicolino](https://github.com/ErosNicolino)  
 - LinkedIn: [https://www.linkedin.com/in/erosnicolino](https://www.linkedin.com/in/erosnicolino)  
 
----
-
-## Observações
-
-Este portfólio é **estático**, portanto pode ser hospedado gratuitamente no GitHub Pages, Netlify ou Vercel.
-

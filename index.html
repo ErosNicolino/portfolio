@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Eros Nicolino — Portfólio</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Eros Nicolino</a>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="mailto:erosnicolino@icloud.com?subject=Contato%20do%20Site">✉️ Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Olá, eu sou <span class="name">Nico</span></h1>
+          <p class="lead">Pós-graduando em Machine Learning Engineering | Gestor de TI | Data Science & AI Enthusiast</p>
+
+          <div class="actions">
+            <a class="btn" href="#projects">Ver trabalhos</a>
+            <a class="btn-contact" href="mailto:erosnicolino@icloud.com?subject=Contato%20do%20Site">✉️ Contato</a>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="photo-wrap">
+            <img src="assets/profile.jpg" alt="Foto de perfil" class="profile-photo">
+            <div class="photo-ring"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <div class="skills">
+          <span>Java</span>
+          <span>JavaScript</span>
+          <span>Python</span>
+          <span>C#</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>React Native</span>
+          <span>PyQt / PySide</span>
+          <span>Flask</span>
+          <span>NumPy</span>
+          <span>Scikit-learn</span>
+          <span>SQL</span>
+          <span>NoSQL</span>
+          <span>Oracle</span>
+          <span>AWS</span>
+          <span>APIs REST</span>
+          <span>Web Scraping</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE-->
+    <section id="about" class="about container">
+      <div class="about-inner">
+        <div class="about-text">
+          <h2>Sobre mim</h2>
+          <p>
+            Profissional de Tecnologia da Informação com experiência em gestão de equipes, projetos e infraestrutura, atualmente cursando Pós-graduação em <strong>Machine 
+            Learning Engineering</strong> pela FIAP.
+          <br><br>
+            Apaixonado por dados, inteligência artificial e soluções de aprendizado de máquina, busco aplicar técnicas de <strong>Machine Learning, Deep Learning, NLP e MLOps </strong>
+            para gerar valor em negócios e apoiar a transformação digital.
+          <br><br>
+            Tenho sólida experiência em <strong>Gestão de TI, bancos de dados, segurança da informação e liderança de projetos ágeis,</strong> o que me permite unir visão estratégica e 
+            técnica no desenvolvimento de soluções baseadas em dados.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projects" class="projects container">
+      <h2>Projetos</h2>
+      <div class="zigzag">
+        <!-- Projeto 1 -->
+        <article class="project">
+          <div class="proj-text">
+            <h3>Mica Chocolates</h3>
+            <div class="tech-list">
+              <span>JavaScript</span>
+              <span>CSS</span>
+              <span>WordPress</span>
+              <span>E-commerce</span>
+              <span>UI/UX</span>
+            </div>
+            <p>Colaborei no desenvolvimento e customização do site da marca, com foco em estética, usabilidade e desempenho. <br><br>
+              Atuei na implementação de scripts em JavaScript, customizações em CSS, integração e ajustes de plugins no WordPress e adaptação 
+              do layout e funcionalidades para o e-commerce, entregando um projeto real em produção.</p>
+            <div class="proj-actions">
+              <a class="btn" href="https://micachocolates.com.br" target="_blank">Demo</a>
+              <a class="btn ghost" href="https://github.com/seuuser/mica-chocolates" target="_blank">Código</a>
+            </div>
+          </div>
+          <div class="proj-img">
+            <img src="assets/project-1.jpg" alt="Mica Chocolates">
+          </div>
+        </article>
+
+        <!-- Projeto 2 -->
+        <article class="project reverse">
+          <div class="proj-text">
+            <h3>Projeto Tech Challenge</h3>
+            <div class="tech-list">
+              <span>Python</span>
+              <span>Web Scraping</span>
+              <span>Flask</span>
+              <span>APIs REST</span>
+              <span>Swagger/OpenAPI</span>
+              <span>CSV</span>
+            </div>
+            <p>Desenvolvimento de sistema de Web Scraping e API Flask para Books to Scrape. <br>
+              Extração e tratamento de dados (título, preço, rating, categoria e imagem), armazenamento em CSV, endpoints RESTful com documentação Swagger e 
+              deploy funcional no Heroku.</p>
+            <div class="proj-actions">
+              <a class="btn" href="https://tech-challenger-fiap-a3208a7afd55.herokuapp.com" target="_blank">Demo</a>
+              <a class="btn ghost" href="https://www.github.com/ErosNicolino/tech-challenge-books-api/" target="_blank">Código</a>
+            </div>
+          </div>
+          <div class="proj-img">
+            <img src="assets/project-2.jpg" alt="Tech Challenger">
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>© <span id="year"></span> Nicolino — <a href="https://github.com/ErosNicolino" target="_blank">GitHub</a></small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

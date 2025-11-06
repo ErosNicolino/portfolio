@@ -87,9 +87,11 @@ Vamos nos conectar!
   <a href="https://www.linkedin.com/in/erosnicolino" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Eros%20Nicolino-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
+  <br>
   <a href="https://github.com/ErosNicolino" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-ErosNicolino-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
+  <br>
   <a href="mailto:erosnicolino@icloud.com">
     <img src="https://img.shields.io/badge/Email-erosnicolino@icloud.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>

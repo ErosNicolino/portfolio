@@ -1,4 +1,4 @@
-# 🌟 Portfólio Dinâmico — Eros Nicolino
+# Portfólio — Eros Nicolino
 
 <p align="center">
   <img alt="Linguagem Principal" src="https://img.shields.io/github/languages/top/ErosNicolino/portfolio?color=7c5cff">
@@ -20,20 +20,20 @@
 
 ---
 
-## ✨ Funcionalidades Principais
+## Funcionalidades Principais
 
 Este não é um portfólio estático — é uma aplicação **SPA (Single Page Application)** com recursos interativos e foco em desempenho:
 
-- 🌐 **Sistema Multilíngue:** tradução dinâmica para **Português, Inglês e Espanhol**, com salvamento automático no `localStorage`.  
-- 🧭 **Navegação Ativa (Scroll-Spy):** destaca em tempo real a seção em exibição com `IntersectionObserver`.  
-- 🎓 **Seção de Qualificações:** inclui **Formação Acadêmica**, **Certificações Oficiais (AWS / Google)** e cursos da **Alura**.  
-- 🚀 **Alta Performance:** animações suaves de entrada com `IntersectionObserver` sem travar o scroll.  
-- 🎨 **Design Elegante:** tipografia moderna (**Inter & Poppins**), tema escuro e microinterações sutis.  
-- 📫 **Rodapé Funcional:** links sociais + botão para **download direto do currículo**.  
+- **Sistema Multilíngue:** tradução dinâmica para **Português, Inglês e Espanhol**, com salvamento automático no `localStorage`.  
+- **Navegação Ativa (Scroll-Spy):** destaca em tempo real a seção em exibição com `IntersectionObserver`.  
+- **Seção de Qualificações:** inclui **Formação Acadêmica**, **Certificações Oficiais (AWS / Google)** e cursos da **Alura**.  
+- **Alta Performance:** animações suaves de entrada com `IntersectionObserver` sem travar o scroll.  
+- **Design Elegante:** tipografia moderna (**Inter & Poppins**), tema escuro e microinterações sutis.  
+- **Rodapé Funcional:** links sociais + botão para **download direto do currículo**.  
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
@@ -63,7 +63,7 @@ portfolio/
 
 ---
 
-## 🚀 Como Rodar Localmente
+## Como Rodar Localmente
 
 Clone o repositório:
 ```bash
@@ -79,7 +79,7 @@ Abra o arquivo **index.html** diretamente no navegador.
 
 ---
 
-## 📫 Contato
+## Contato
 
 Vamos nos conectar!
 
@@ -99,7 +99,7 @@ Vamos nos conectar!
 
 ---
 
-## 🧾 Licença
+## Licença
 
 Este projeto está sob a licença **MIT**.  
 Sinta-se à vontade para usar o código como base para o seu próprio portfólio.

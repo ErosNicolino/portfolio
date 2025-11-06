@@ -83,7 +83,7 @@ Abra o arquivo **index.html** diretamente no navegador.
 
 Vamos nos conectar!
 
-<p align="center">
+<p>
   <a href="https://www.linkedin.com/in/erosnicolino" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Eros%20Nicolino-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>

@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://erosnicolino.github.io/" target="_blank">
+  <a href="https://erosnicolino.github.io/portfolio/" target="_blank">
     <img src="https://img.shields.io/badge/Acessar%20Portfólio%20Live-8b5cf6?style=for-the-badge&logo=githubpages&logoColor=white" alt="Acessar Portfólio">
   </a>
   &nbsp;

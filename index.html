@@ -3,11 +3,26 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  
   <title data-lang-key="site_title">Eros Nicolino — Portfólio</title>
+  <meta name="description" content="Portfólio de Eros Nicolino - Engenheiro de Dados e Desenvolvedor Python (AWS, ETL, Machine Learning). Confira meus projetos e qualificações.">
+  <meta name="keywords" content="Eros Nicolino, Data Engineer, Machine Learning, Python, AWS, ETL, Portfólio, Developer">
+  <meta name="author" content="Eros Nicolino">
 
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://erosnicolino.github.io/"> <meta property="og:title" content="Eros Nicolino — Engenheiro de Dados & ML">
+  <meta property="og:description" content="Engenheiro de Dados e Pós-graduando em ML. Veja meus projetos em AWS, Python e Pipelines de Dados.">
+  <meta property="og:image" content="assets/og-image.jpg"> <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Eros Nicolino — Engenheiro de Dados & ML">
+  <meta property="twitter:description" content="Engenheiro de Dados e Pós-graduando em ML. Veja meus projetos em AWS, Python e Pipelines de Dados.">
+  <meta property="twitter:image" content="assets/og-image.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="styles.css">
-</head>
+  <link rel="icon" type="image/png" href="assets/favicon.png"> </head>
 <body>
 
   <header class="site-header">
@@ -15,13 +30,13 @@
       <a class="brand" href="#home">Eros Nicolino</a>
       
       <div class="nav-main">
-        <nav class="nav" data-visible="false">
+        <nav class="nav" id="primary-navigation" data-visible="false">
           <ul class="nav-list">
             <li><a href="#home" data-lang-key="nav_home">Home</a></li>
             <li><a href="#about" data-lang-key="nav_about">Sobre</a></li>
             <li><a href="#qualifications" data-lang-key="nav_qualifications">Qualificações</a></li>
             <li><a href="#projects" data-lang-key="nav_projects">Projetos</a></li>
-            <li><a class="nav-contact-btn" href="mailto:erosnicolino@icloud.com?subject=Contato%20do%20Site" data-lang-key="nav_contact">✉️ Contato</a></li>
+            <li><a class="nav-contact-btn" href="mailto:erosnicolino@icloud.com?subject=Contato%20via%20Portfólio" data-lang-key="nav_contact">✉️ Contato</a></li>
           </ul>
         </nav>
 
@@ -32,10 +47,12 @@
         </div>
 
         <div class="nav-profile">
-          <img src="assets/profile.jpg" alt="Foto de Eros Nicolino">
+          <img src="assets/profile.jpg" alt="Foto de Eros Nicolino" width="40" height="40">
         </div>
         
-        <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+        <button class="nav-toggle" aria-controls="primary-navigation" aria-label="Abrir menu" aria-expanded="false">
+          <span aria-hidden="true">☰</span>
+        </button>
       </div>
     </div>
   </header>
@@ -49,7 +66,7 @@
           <p class="lead" data-lang-key="hero_lead">Engenheiro de Dados (AWS) & Python Developer | Pós-graduando em Machine Learning Engineering</p>
           <div class="actions">
             <a class="btn" href="#projects" data-lang-key="hero_btn_projects">Ver trabalhos</a>
-            <a class="btn-contact" href="mailto:erosnicolino@icloud.com?subject=Contato%20do%20Site" data-lang-key="hero_btn_contact">✉️ Contato</a>
+            <a class="btn-contact" href="mailto:erosnicolino@icloud.com?subject=Oportunidade%20de%20Trabalho" data-lang-key="hero_btn_contact">✉️ Contato</a>
           </div>
         </div>
       </div>
@@ -67,7 +84,7 @@
         <div class="about-media">
           <div class="hero-media">
             <div class="photo-wrap">
-              <img src="assets/profile.jpg" alt="Foto de perfil" class="profile-photo">
+              <img src="assets/profile.jpg" alt="Foto de perfil de Eros Nicolino" class="profile-photo" width="400" height="400" loading="lazy">
               <div class="photo-ring"></div>
             </div>
           </div>
@@ -75,7 +92,7 @@
       </div>
     </section>
 
-<section id="qualifications" class="qualifications-section">
+    <section id="qualifications" class="qualifications-section">
       <div class="container">
         <h2 data-lang-key="qual_title">Qualificações</h2>
         <div class="qualifications-grid">
@@ -191,14 +208,13 @@
               <span>Deep Q-Learning</span>
             </div>
             <p data-lang-key="proj_1_desc">Desenvolvimento de um agente de inteligência artificial para jogar o clássico jogo Pong, utilizando conceitos de 
-              Reinforcement Learning. O agente aprende a estratégia ideal através de tentativas e erros, otimizando suas decisões para maximizar a pontuação 
-              sem intervenção humana.</p>
+              Reinforcement Learning. O agente aprende a estratégia ideal através de tentativas e erros.</p>
             <div class="proj-actions">
-              <a class="btn" href="https://github.com/ErosNicolino/PongAI" target="_blank" data-lang-key="btn_code">Código</a>
+              <a class="btn" href="https://github.com/ErosNicolino/PongAI" target="_blank" data-lang-key="btn_code">Ver Código</a>
             </div>
           </div>
           <div class="proj-fig">
-            <img src="assets/PongWin.gif" alt="Pong AI - Reinforcement Learning">
+            <img src="assets/PongWin.gif" alt="Pong AI - Reinforcement Learning" loading="lazy">
           </div>
         </article>
         
@@ -206,47 +222,44 @@
           <div class="proj-text">
             <h3 data-lang-key="proj_2_title">Pipeline Batch Serverless - Bovespa</h3>
             <div class="tech-list">
-              <span>AWS</span>
               <span>AWS Glue</span>
               <span>AWS Lambda</span>
               <span>S3</span>
-              <span>ETL</span>
               <span>Parquet</span>
               <span>Athena</span>
             </div>
             <p data-lang-key="proj_2_desc">Desenvolvimento de um pipeline de dados batch serverless na AWS para ingestão, processamento e análise de dados 
               do pregão da B3. Orquestração com S3 Events e AWS Lambda para trigger de job ETL no AWS Glue.</p>
             <div class="proj-actions">
-              <a class="btn btn-disabled" href="#" onclick="return false;" data-lang-key="btn_inprogress">Em Andamento</a> 
-              <a class="btn ghost btn-disabled" href="#" onclick="return false;" data-lang-key="btn_code">Código</a>
+              <span class="btn-label" data-lang-key="status_wip">🚧 Em Desenvolvimento</span>
+              <a class="btn ghost" href="https://github.com/ErosNicolino" target="_blank" data-lang-key="btn_arch">Ver Arquitetura (WIP)</a>
             </div>
           </div>
           <div class="proj-img">
-            <img src="assets/project-bovespa-inprogress.jpg" alt="Pipeline Bovespa AWS - Em Andamento">
+            <img src="assets/project-bovespa-inprogress.jpg" alt="Pipeline Bovespa AWS - Arquitetura" loading="lazy">
           </div>
         </article>
 
         <article class="project reverse">
           <div class="proj-text">
-            <h3 data-lang-key="proj_3_title">Pipeline de Ingestão e Distribuição de Dados via API (Python/Flask)</h3>
+            <h3 data-lang-key="proj_3_title">API de Dados de Livros (Python/Flask)</h3>
             <div class="tech-list">
               <span>Python</span>
               <span>Flask</span>
               <span>JWT</span>
               <span>Web Scraping</span>
-              <span>APIs REST</span>
               <span>Swagger</span>
               <span>Streamlit</span>
             </div>
-            <p data-lang-key="proj_3_desc">API completa (Flask) para consulta de dados de livros, com autenticação JWT. Inclui pipeline de web scraping, 
-              endpoints RESTful com documentação Swagger (OpenAPI) e um dashboard de monitoramento interativo com Streamlit.</p>
+            <p data-lang-key="proj_3_desc">API completa para consulta de dados de livros com autenticação JWT. Inclui pipeline de web scraping, 
+              endpoints RESTful com documentação Swagger (OpenAPI) e dashboard de monitoramento.</p>
             <div class="proj-actions">
               <a class="btn" href="https://tech-challenge-books-api-mkqn.onrender.com" target="_blank">Demo</a>
-              <a class="btn ghost" href="https://github.com/ErosNicolino/tech-challenge-books-api" target="_blank" data-lang-key="btn_code">Código</a>
+              <a class="btn ghost" href="https://github.com/ErosNicolino/tech-challenge-books-api" target="_blank" data-lang-key="btn_code">Ver Código</a>
             </div>
           </div>
           <div class="proj-img">
-            <img src="assets/project-2.jpg" alt="Tech Challenge Books API">
+            <img src="assets/project-2.jpg" alt="Tech Challenge Books API" loading="lazy">
           </div>
         </article>
       </div>
@@ -258,8 +271,8 @@
     <div class="container footer-content">
       <div class="footer-main">
         <h3 data-lang-key="footer_title">Vamos nos conectar</h3>
-        <p data-lang-key="footer_desc">Estou sempre aberto a discutir novos projetos, ideias criativas ou oportunidades para fazer parte de suas visões.</p>
-        <a href="assets/Curriculo-Eros-Nicolino.pdf" class="btn" download data-lang-key="footer_btn_cv">Baixar CV (PT-BR)</a>
+        <p data-lang-key="footer_desc">Estou sempre aberto a discutir novos projetos de Data Engineering, ML ou oportunidades de carreira.</p>
+        <a href="assets/Curriculo.pdf" class="btn" download data-lang-key="footer_btn_cv">Baixar CV (PDF)</a>
       </div>
       <div class="footer-links">
         <h4 data-lang-key="footer_socials">Mídias Sociais</h4>

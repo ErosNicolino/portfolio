@@ -181,11 +181,11 @@ O projeto usa **CSS Variables** para fácil customização:
 
 ## Segurança & Boas Práticas
 
-✅ Sem dependências externas (vanilla JS)  
-✅ HTTPS por padrão (GitHub Pages)  
-✅ CSP headers configurado  
-✅ Sem tracking ou cookies invasivos  
-✅ Dados de contato protegidos  
+Sem dependências externas (vanilla JS)  
+HTTPS por padrão (GitHub Pages)  
+CSP headers configurado  
+Sem tracking ou cookies invasivos  
+Dados de contato protegidos  
 
 ---
 

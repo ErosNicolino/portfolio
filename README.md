@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="assets/favicon.png" alt="Logo" width="90" />
 
   <h1>Eros Nicolino</h1>
   <h3>Software Engineer</h3>

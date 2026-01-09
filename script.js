@@ -1,270 +1,223 @@
 const translations = {
   pt: {
-    site_title: "Eros Nicolino — Software Engineer",
+    // --- META & NAVIGATION ---
+    site_title: "Eros Nicolino — Engenheiro de Dados",
     nav_home: "Home",
     nav_projects: "Projetos",
     nav_skills: "Skills",
     nav_about: "Sobre",
-    nav_contact: "Contato",
+    nav_cv: "CV ↓",
 
-    // HERO
+    // --- HERO SECTION ---
     hero_title:
-      'Crafting logic into <br /> <span class="italic-accent">intelligent systems.</span>',
+      'Data Engineer | AWS | Python<br /><span class="italic-accent">Serverless Pipelines.</span>',
     hero_lead:
-      "Especialista em Engenharia de Dados, IA e Sistemas de Tempo Real. Transformando complexidade em arquiteturas escaláveis.",
-    hero_btn_projects: "Ver Portfolio",
-    hero_btn_cv: "Download CV",
+      "Engenharia de dados focada em redução de custos e escalabilidade. Transformo dados brutos em inteligência de negócio com arquiteturas AWS robustas.",
+    hero_btn_projects: "Ver Projetos & Impacto",
+    hero_btn_contact: "Entrar em Contato",
 
-    // PROJETOS
-    projects_title: "Projetos Selecionados",
+    // --- PROJECTS SECTION ---
+    projects_title: "Projetos de Impacto",
+    projects_subtitle:
+      "Arquiteturas desenhadas para performance e eficiência de custos.",
+    impact_label: "Impacto:",
 
-    // TAGS DOS PROJETOS
-    tag_pong: "Agente de IA",
-    tag_pipeline: "Engenharia de Dados",
-    tag_livelink: "WebRTC & Sockets",
-    tag_api: "Backend API",
-    tag_battleship: "Algorithms",
+    // Buttons
+    btn_github: "GitHub & Docs",
+    btn_demo: "Ver Demo Online",
 
-    // DETALHES DOS PROJETOS
-    proj_1_title: "Pong AI Agent",
-    proj_1_desc: "Agente autônomo treinado via Deep Q-Networks (DQN).",
-
-    proj_2_title: "Serverless Data Pipeline",
+    // Project 1: Pipeline
+    proj_2_title: "Financial Data Pipeline",
     proj_2_desc:
-      "Arquitetura 100% serverless na AWS para dados financeiros da B3.",
+      "Pipeline ETL processando dados da B3. Arquitetura orientada a eventos para garantir dados sempre atualizados.",
+    proj_2_metric_1: "✅ Custo Zero em Idle (Serverless)",
+    proj_2_metric_2: "✅ Automação 100% via EventBridge",
 
+    // Project 2: WebRTC
     proj_3_title: "LiveLink Streaming",
     proj_3_desc:
-      "Streaming P2P de baixa latência (<300ms) sem servidores de mídia.",
+      "Sistema de vídeo P2P eliminando custo de servidores de mídia intermediários.",
+    proj_3_metric_1: "✅ Latência Sub-300ms",
+    proj_3_metric_2: "✅ Escalabilidade Horizontal P2P",
 
+    // Project 3: Pong AI
+    proj_1_title: "Pong AI Agent (DQN)",
+    proj_1_desc:
+      "Agente autônomo treinado com Deep Q-Networks. Demonstração de lógica de recompensa complexa.",
+    proj_1_metric_1: "✅ +50.000 iterações de treino",
+    proj_1_metric_2: "✅ Taxa de vitória > 95%",
+
+    // Project 4: Books API
     proj_4_title: "Enterprise Books API",
-    proj_4_desc: "API robusta com JWT e Swagger. Demo Live.",
+    proj_4_desc:
+      "API Production-Ready com documentação automática e segurança implementada.",
+    proj_4_metric_1: "✅ Auth Segura (JWT)",
+    proj_4_metric_2: "✅ Pipeline de Scraping Integrado",
 
+    // Project 5: Battleship
     proj_5_title: "Probabilistic Battleship",
-    proj_5_desc: "IA baseada em mapas de calor probabilísticos.",
+    proj_5_desc:
+      "IA tática baseada em mapas de calor probabilísticos. Calcula estatisticamente a melhor jogada a cada turno.",
+    proj_5_metric_1: "✅ Decisão puramente estatística",
+    proj_5_metric_2: "✅ Heatmaps em Tempo Real",
 
-    // SKILLS
-    skills_title: "Expertise",
-    skills_ai_title: "Data & AI",
-    skills_backend_title: "Cloud & Backend",
-    skills_systems_title: "Real-Time Systems",
-
-    // SOBRE
-    about_title: "Sobre Mim",
+    // --- SKILLS & ABOUT ---
+    skills_ai_title: "Data Engineering & AI",
+    skills_backend_title: "Backend & Systems",
+    about_title: "Background Técnico",
     about_p1:
-      "Atuo na intersecção entre a precisão dos dados e a criatividade do software. Minha trajetória é marcada pela construção de pipelines ETL robustos na AWS e pelo desenvolvimento de algoritmos de Machine Learning aplicados ao mundo real.",
+      "Meu foco é resolver problemas de negócio complexos usando dados. Com forte base em matemática e algoritmos, transito entre a construção de infraestrutura de dados escalável na AWS e o desenvolvimento de software backend de alta performance.",
     edu_1_title: "Pós-Graduação: ML Engineering",
-    edu_1_school: "FIAP (Previsto: 2026)",
+    edu_1_school: "FIAP (Cursando)",
     edu_2_title: "Gestão de TI",
-    edu_2_school: "FAM (2025)",
+    edu_2_school: "FAM (Concluído)",
 
-    // FOOTER
-    footer_title: "Vamos construir algo incrível.",
-    footer_btn_contact: "Entre em Contato",
+    // --- FOOTER ---
+    footer_title: "Tem um desafio de dados?",
+    footer_subtitle: "Disponível para projetos e contratação.",
+    footer_btn: "Vamos Conversar",
   },
   en: {
-    site_title: "Eros Nicolino — Software Engineer",
+    // --- META & NAVIGATION ---
+    site_title: "Eros Nicolino — Data Engineer",
     nav_home: "Home",
     nav_projects: "Projects",
     nav_skills: "Skills",
     nav_about: "About",
-    nav_contact: "Contact",
+    nav_cv: "Resume ↓",
 
-    // HERO
+    // --- HERO SECTION ---
     hero_title:
-      'Crafting logic into <br /> <span class="italic-accent">intelligent systems.</span>',
+      'Data Engineer | AWS | Python<br /><span class="italic-accent">Serverless Pipelines.</span>',
     hero_lead:
-      "Specializing in Data Engineering, AI, and Real-Time Systems. Turning complexity into scalable architectures.",
-    hero_btn_projects: "View Portfolio",
-    hero_btn_cv: "Download CV",
+      "Data engineering focused on cost reduction and scalability. Transforming raw data into business intelligence with robust AWS architectures.",
+    hero_btn_projects: "View Projects & Impact",
+    hero_btn_contact: "Get in Touch",
 
-    // PROJECTS
-    projects_title: "Selected Projects",
+    // --- PROJECTS SECTION ---
+    projects_title: "Impactful Projects",
+    projects_subtitle:
+      "Architectures designed for performance and cost efficiency.",
+    impact_label: "Impact:",
 
-    // TAGS
-    tag_pong: "AI Agent",
-    tag_pipeline: "Data Engineering",
-    tag_livelink: "WebRTC & Sockets",
-    tag_api: "Backend API",
-    tag_battleship: "Algorithms",
+    // Buttons
+    btn_github: "GitHub & Docs",
+    btn_demo: "Live Demo",
 
-    proj_1_title: "Pong AI Agent",
-    proj_1_desc: "Autonomous agent trained via Deep Q-Networks (DQN).",
+    // Project 1: Pipeline
+    proj_2_title: "Financial Data Pipeline",
+    proj_2_desc:
+      "ETL pipeline processing B3 financial data. Event-driven architecture ensures real-time availability.",
+    proj_2_metric_1: "✅ Zero Idle Cost (Serverless)",
+    proj_2_metric_2: "✅ 100% Automation via EventBridge",
 
-    proj_2_title: "Serverless Data Pipeline",
-    proj_2_desc: "Fully serverless architecture on AWS for B3 financial data.",
-
-    proj_3_title: "LiveLink Streaming",
-    proj_3_desc: "Low-latency (<300ms) P2P streaming without media servers.",
-
-    proj_4_title: "Enterprise Books API",
-    proj_4_desc: "Robust API with JWT and Swagger. Live Demo.",
-
-    proj_5_title: "Probabilistic Battleship",
-    proj_5_desc: "AI powered by probabilistic heatmaps.",
-
-    // SKILLS
-    skills_title: "Expertise",
-    skills_ai_title: "Data & AI",
-    skills_backend_title: "Cloud & Backend",
-    skills_systems_title: "Real-Time Systems",
-
-    // ABOUT
-    about_title: "About Me",
-    about_p1:
-      "Operating at the intersection of data precision and software creativity. My journey is marked by building robust ETL pipelines on AWS and developing Machine Learning algorithms applied to the real world.",
-    edu_1_title: "Postgrad: ML Engineering",
-    edu_1_school: "FIAP (Expected: 2026)",
-    edu_2_title: "IT Management",
-    edu_2_school: "FAM (2025)",
-
-    // FOOTER
-    footer_title: "Let's build something amazing.",
-    footer_btn_contact: "Get in Touch",
-  },
-  es: {
-    site_title: "Eros Nicolino — Ingeniero de Software",
-    nav_home: "Inicio",
-    nav_projects: "Proyectos",
-    nav_skills: "Habilidades",
-    nav_about: "Sobre mí",
-    nav_contact: "Contacto",
-
-    // HERO
-    hero_title:
-      'Crafting logic into <br /> <span class="italic-accent">intelligent systems.</span>',
-    hero_lead:
-      "Especialista en Ingeniería de Datos, IA y Sistemas en Tiempo Real. Transformando complejidad en arquitecturas escalables.",
-    hero_btn_projects: "Ver Portafolio",
-    hero_btn_cv: "Descargar CV",
-
-    // PROJECTS
-    projects_title: "Proyectos Seleccionados",
-
-    // TAGS
-    tag_pong: "Agente de IA",
-    tag_pipeline: "Ingeniería de Datos",
-    tag_livelink: "WebRTC & Sockets",
-    tag_api: "Backend API",
-    tag_battleship: "Algorithms",
-
-    proj_1_title: "Pong AI Agent",
-    proj_1_desc: "Agente autónomo entrenado vía Deep Q-Networks (DQN).",
-
-    proj_2_title: "Pipeline de Datos Serverless",
-    proj_2_desc: "Arquitectura 100% serverless en AWS para datos financieros.",
-
+    // Project 2: WebRTC
     proj_3_title: "LiveLink Streaming",
     proj_3_desc:
-      "Streaming P2P de baja latencia (<300ms) sin servidores de medios.",
+      "P2P video system eliminating the cost of intermediate media servers.",
+    proj_3_metric_1: "✅ Sub-300ms Latency",
+    proj_3_metric_2: "✅ P2P Horizontal Scalability",
 
+    // Project 3: Pong AI
+    proj_1_title: "Pong AI Agent (DQN)",
+    proj_1_desc:
+      "Autonomous agent trained with Deep Q-Networks. Demonstrating complex reward logic.",
+    proj_1_metric_1: "✅ +50,000 training iterations",
+    proj_1_metric_2: "✅ Win rate > 95%",
+
+    // Project 4: Books API
     proj_4_title: "Enterprise Books API",
-    proj_4_desc: "API robusta con JWT y Swagger. Demo Live.",
+    proj_4_desc:
+      "Production-Ready API with automatic documentation and implemented security.",
+    proj_4_metric_1: "✅ Secure Auth (JWT)",
+    proj_4_metric_2: "✅ Integrated Scraping Pipeline",
 
+    // Project 5: Battleship
     proj_5_title: "Probabilistic Battleship",
-    proj_5_desc: "IA basada en mapas de calor probabilísticos.",
+    proj_5_desc:
+      "Tactical AI powered by real-time probabilistic heatmaps. It calculates the statistically highest-value move every turn.",
+    proj_5_metric_1: "✅ Purely statistical decision making",
+    proj_5_metric_2: "✅ Real-time Heatmaps",
 
-    // SKILLS
-    skills_title: "Expertise",
-    skills_ai_title: "Data & AI",
-    skills_backend_title: "Cloud & Backend",
-    skills_systems_title: "Sistemas Real-Time",
-
-    // ABOUT
-    about_title: "Sobre mí",
+    // --- SKILLS & ABOUT ---
+    skills_ai_title: "Data Engineering & AI",
+    skills_backend_title: "Backend & Systems",
+    about_title: "Technical Background",
     about_p1:
-      "Actúo en la intersección entre la precisión de los datos y la creatividad del software. Mi trayectoria está marcada por la construcción de pipelines ETL robustos en AWS y algoritmos de ML.",
-    edu_1_title: "Posgrado: ML Engineering",
-    edu_1_school: "FIAP (Previsto: 2026)",
-    edu_2_title: "Gestión de TI",
-    edu_2_school: "FAM (5)",
+      "My focus is solving complex business problems using data. With a strong foundation in math and algorithms, I bridge the gap between scalable data infrastructure on AWS and high-performance backend software.",
+    edu_1_title: "Postgrad: ML Engineering",
+    edu_1_school: "FIAP (In Progress)",
+    edu_2_title: "IT Management",
+    edu_2_school: "FAM (Completed)",
 
-    // FOOTER
-    footer_title: "Construyamos algo increíble.",
-    footer_btn_contact: "Contáctame",
+    // --- FOOTER ---
+    footer_title: "Have a data challenge?",
+    footer_subtitle: "Available for projects and hiring.",
+    footer_btn: "Let's Talk",
   },
 };
 
 document.addEventListener("DOMContentLoaded", () => {
   const langButtons = document.querySelectorAll(".lang-btn");
 
+  // --- LANGUAGE HANDLER ---
   const setLanguage = (lang) => {
-    const langData = translations[lang];
-    if (!langData) return;
+    // Default to PT if lang not found
+    const langData = translations[lang] || translations["pt"];
 
     document.querySelectorAll("[data-lang-key]").forEach((element) => {
       const key = element.getAttribute("data-lang-key");
-      const translation = langData[key];
-      if (translation) {
-        element.innerHTML = translation;
+      if (langData[key]) {
+        element.innerHTML = langData[key];
       }
     });
 
     document.documentElement.lang = lang;
-    document.title = langData.site_title.replace(/<[^>]*>?/gm, "");
-    localStorage.setItem("preferredLanguage", lang);
     langButtons.forEach((btn) => {
       btn.classList.toggle("active", btn.getAttribute("data-lang") === lang);
     });
+    localStorage.setItem("preferredLanguage", lang);
   };
 
-  const initLanguageSwitcher = () => {
-    langButtons.forEach((button) => {
-      button.addEventListener("click", () => {
-        const selectedLang = button.getAttribute("data-lang");
-        setLanguage(selectedLang);
-      });
+  langButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      setLanguage(button.getAttribute("data-lang"));
     });
-    const savedLang = localStorage.getItem("preferredLanguage") || "pt";
-    setLanguage(savedLang);
-  };
+  });
 
-  const initMobileMenu = () => {
-    const navToggle = document.querySelector(".nav-toggle");
-    const nav = document.querySelector(".nav");
+  // Init with stored language or default to PT
+  setLanguage(localStorage.getItem("preferredLanguage") || "pt");
 
-    if (!navToggle || !nav) return;
-
+  // --- MOBILE MENU HANDLER ---
+  const navToggle = document.querySelector(".nav-toggle");
+  const nav = document.querySelector(".nav");
+  if (navToggle && nav) {
     navToggle.addEventListener("click", () => {
       const isVisible = nav.getAttribute("data-visible") === "true";
       nav.setAttribute("data-visible", !isVisible);
-      navToggle.setAttribute("aria-expanded", !isVisible);
     });
 
+    // Auto-close menu when clicking a link
     document.querySelectorAll(".nav-list a").forEach((link) => {
-      link.addEventListener("click", () => {
-        nav.setAttribute("data-visible", "false");
-        navToggle.setAttribute("aria-expanded", "false");
-      });
+      link.addEventListener("click", () =>
+        nav.setAttribute("data-visible", "false")
+      );
     });
-  };
+  }
 
-  const initScrollFadeIn = () => {
-    const sections = document.querySelectorAll(".scroll-reveal, .reveal-item");
-    if (sections.length === 0) return;
+  // --- SCROLL REVEAL ANIMATION ---
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    { threshold: 0.1 }
+  );
 
-    const observer = new IntersectionObserver(
-      (entries, obs) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-            obs.unobserve(entry.target);
-          }
-        });
-      },
-      { root: null, rootMargin: "0px 0px -50px 0px", threshold: 0.1 }
-    );
-
-    sections.forEach((section) => observer.observe(section));
-  };
-
-  const initFooterYear = () => {
-    const yearSpan = document.getElementById("year");
-    if (yearSpan) yearSpan.textContent = new Date().getFullYear();
-  };
-
-  initLanguageSwitcher();
-  initMobileMenu();
-  initScrollFadeIn();
-  initFooterYear();
+  document
+    .querySelectorAll(".scroll-reveal, .reveal-item")
+    .forEach((el) => observer.observe(el));
 });

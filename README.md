@@ -1,97 +1,91 @@
-# Portfólio — Eros Nicolino
+<div align="center">
+  <img src="assets/favicon.png" alt="Logo" width="90" />
 
-<p align="center">
-  <img alt="Linguagem Principal" src="https://img.shields.io/github/languages/top/ErosNicolino/portfolio?color=A67C52&style=for-the-badge">
-  <img alt="Deploy" src="https://img.shields.io/badge/deploy-GitHub_Pages-success?style=for-the-badge">
-  <img alt="Licença" src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge">
-  <img alt="Versão" src="https://img.shields.io/badge/version-3.0-important?style=for-the-badge">
-</p>
+  <h1>Eros Nicolino</h1>
+  <h3>Software Engineer</h3>
 
-<p align="center">
-  <strong>Portfólio profissional multilíngue</strong> focado em <strong>Software Engineering</strong>, 
-  <strong>Data Engineering</strong>, <strong>Machine Learning</strong> e <strong>Sistemas em Tempo Real</strong>.
-</p>
+  <p>
+    <strong>Data Engineering</strong> ·
+    <strong>Machine Learning</strong> ·
+    <strong>Real-Time Systems</strong>
+  </p>
 
----
+  <p>
+    <a href="https://erosnicolino.github.io/portfolio/">
+      <img src="https://img.shields.io/badge/Portfolio_Online-Visualizar-C7A07A?style=for-the-badge&logo=google-chrome&logoColor=white" />
+    </a>
+  </p>
 
-## Visão Geral
-
-Este repositório contém meu **portfólio pessoal versão 3.0**, totalmente redesenhado com foco em:
-- Clareza técnica
-- Arquitetura visual elegante (Bege / Earthy theme)
-- Performance e acessibilidade
-- Conteúdo voltado ao mercado internacional
-
-O site é **100% vanilla (HTML, CSS e JS)**, sem frameworks, priorizando controle total, leveza e legibilidade.
-
----
-
-## Principais Destaques
-
-- 🌍 **Multilíngue (PT / EN / ES)** com persistência via LocalStorage
-- 🎨 **Design clean & premium** (tema bege elegante)
-- ⚡ **Alto desempenho** (carregamento instantâneo)
-- 📱 **Totalmente responsivo**
-- 🧠 **Conteúdo técnico aprofundado**
-- 📄 **Download direto do currículo**
-- 🎥 Projetos com **GIFs, imagens e demos reais**
+  <p>
+    <img src="https://img.shields.io/github/languages/top/ErosNicolino/portfolio?color=1A1A1A" />
+    <img src="https://img.shields.io/github/repo-size/ErosNicolino/portfolio?color=1A1A1A" />
+    <img src="https://img.shields.io/badge/license-MIT-1A1A1A" />
+    <img src="https://img.shields.io/badge/version-3.0-C7A07A" />
+  </p>
+</div>
 
 ---
 
-## Projetos em Destaque
+## ✦ Sobre o Projeto
 
-| Projeto | Descrição |
-|------|---------|
-| **Pong AI (RL)** | Agente treinado com Deep Q-Learning para dominar o jogo Pong |
-| **Serverless Data Pipeline** | Pipeline de dados 100% serverless na AWS (S3, Lambda, Glue) |
-| **LiveLink Streaming** | Sistema WebRTC em tempo real com latência sub-300ms |
-| **Enterprise Books API** | API profissional com JWT, Swagger e Web Scraping |
-| **Battleship AI** | IA probabilística baseada em mapas de calor dinâmicos |
+Este repositório contém meu **Portfólio Profissional (v3.0)**, desenvolvido como uma demonstração prática de **engenharia de software, arquitetura limpa e atenção extrema à experiência do usuário**.
+
+O design segue o conceito **Luxury Minimalist Editorial**, combinando tipografia serifada, espaçamentos generosos e uma paleta de tons terrosos, resultando em uma identidade visual sofisticada e atemporal.
+
+O projeto foi construído **sem frameworks**, utilizando apenas **HTML5, CSS3 moderno e JavaScript ES6+**, garantindo total controle técnico, alta performance e excelente acessibilidade.
 
 ---
 
-## Stack Tecnológico
+## ✦ Destaques Técnicos
 
-**AI & Data**
-```
-Python · Pandas · NumPy · SQL · Reinforcement Learning · AWS Glue
-```
+✔ Internacionalização completa (PT-BR · EN · ES)
+✔ Persistência de idioma via `localStorage`
+✔ Core Web Vitals otimizados
+✔ Layout responsivo e mobile-first
+✔ Arquitetura Vanilla escalável
+✔ Animações suaves e não intrusivas
+
+---
+
+## ✦ Projetos em Evidência
+
+| Área       | Projeto              | Tecnologias           | Descrição                                |
+| ---------- | -------------------- | --------------------- | ---------------------------------------- |
+| IA         | Pong AI (DQN)        | Python · Pygame       | Agente de RL treinado com +50k iterações |
+| Data Eng   | Serverless Pipeline  | AWS · Glue · Lambda   | ETL financeiro serverless                |
+| Real-Time  | LiveLink Streaming   | WebRTC · Socket.io    | Streaming P2P de baixa latência          |
+| Backend    | Enterprise Books API | Flask · JWT · Swagger | API REST profissional                    |
+| Algoritmos | Battleship AI        | JavaScript            | IA probabilística baseada em heurísticas |
+
+---
+
+## ✦ Stack Tecnológico
+
+**Data & AI**
+Python · Pandas · SQL · AWS Glue
 
 **Backend & Cloud**
-```
-AWS (S3, Lambda, Athena, RDS) · Flask · FastAPI · Docker · REST APIs
-```
+AWS · Docker · Flask · PostgreSQL
 
-**Real-Time & Systems**
-```
-WebRTC · Socket.io · Linux · Git · CI/CD · Estruturas de Dados
-```
+**Web & Systems**
+JavaScript · WebRTC · Linux · Git
 
 ---
 
-## Estrutura do Projeto
+## ✦ Estrutura do Projeto
 
-```
+```bash
 portfolio/
-│
-├── index.html
-├── styles.css
-├── script.js
-├── README.md
-├── LICENSE
-│
-└── assets/
-    ├── profile.jpg
-    ├── PongWin.gif
-    ├── Primeiro Teste.gif
-    ├── heatmap-demo.png
-    ├── project-bovespa-inprogress.jpg
-    ├── Curriculo.pdf
+├── index.html      # Estrutura semântica
+├── styles.css      # Design editorial e animações
+├── script.js       # i18n e interações
+├── assets/         # Imagens, ícones e currículo
+└── README.md       # Documentação
 ```
 
 ---
 
-## Como Executar Localmente
+## ✦ Execução Local
 
 ```bash
 git clone https://github.com/ErosNicolino/portfolio.git
@@ -99,30 +93,24 @@ cd portfolio
 python -m http.server 8000
 ```
 
-Acesse:
-```
-http://localhost:8000
-```
+Acesse em: **http://localhost:8000**
 
 ---
 
-## Deploy
+## ✦ Contato Profissional
 
-- Hospedado via **GitHub Pages**
-- HTTPS automático
-- Sem dependências externas
-
----
-
-## Contato
-
-- 📧 erosnicolino@icloud.com  
-- 💼 LinkedIn: https://www.linkedin.com/in/erosnicolino  
-- 🧑‍💻 GitHub: https://github.com/ErosNicolino  
+<a href="mailto:erosnicolino@icloud.com">
+  <img src="https://img.shields.io/badge/Email-Contato-C7A07A?style=for-the-badge&logo=icloud&logoColor=white" />
+</a>
+<a href="https://www.linkedin.com/in/erosnicolino">
+  <img src="https://img.shields.io/badge/LinkedIn-Conectar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="https://github.com/ErosNicolino">
+  <img src="https://img.shields.io/badge/GitHub-Repositórios-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
 ---
 
 <p align="center">
-<b>Versão 3.0</b> · Dezembro de 2025<br>
-<b>Desenvolvido por Eros Nicolino</b>
+  © 2025 · Eros Nicolino · Software Engineer
 </p>

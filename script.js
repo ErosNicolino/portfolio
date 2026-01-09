@@ -6,61 +6,61 @@ const translations = {
     nav_skills: "Skills",
     nav_about: "Sobre",
     nav_contact: "Contato",
-    
+
     // HERO
-    hero_title: "Software Engineer | <span class=\"highlight\">Data, AI & Real-Time Systems</span>",
-    hero_lead: "Designing and building scalable data pipelines, AI models, and real-time systems end-to-end.",
-    hero_btn_projects: "Ver Projetos",
-    hero_btn_cv: "Baixar Currículo",
+    hero_title:
+      'Crafting logic into <br /> <span class="italic-accent">intelligent systems.</span>',
+    hero_lead:
+      "Especialista em Engenharia de Dados, IA e Sistemas de Tempo Real. Transformando complexidade em arquiteturas escaláveis.",
+    hero_btn_projects: "Ver Portfolio",
+    hero_btn_cv: "Download CV",
 
     // PROJETOS
-    projects_title: "Projetos em Destaque",
-    
+    projects_title: "Projetos Selecionados",
+
     // TAGS DOS PROJETOS
-    tag_pong: "Agente de IA • Aprendizado por Reforço",
-    tag_pipeline: "Arquitetura Serverless • Engenharia de Dados",
-    tag_livelink: "Sistema em Tempo Real • Baixa Latência",
-    tag_api: "API Profissional (Production-Grade)",
-    tag_battleship: "Lógica Algorítmica",
-    
+    tag_pong: "Agente de IA",
+    tag_pipeline: "Engenharia de Dados",
+    tag_livelink: "WebRTC & Sockets",
+    tag_api: "Backend API",
+    tag_battleship: "Algorithms",
+
     // DETALHES DOS PROJETOS
-    proj_1_title: "Pong AI - Reinforcement Learning",
-    proj_1_desc: "Agente autônomo treinado com mais de 50.000 iterações para dominar o jogo Pong. Utiliza Deep Q-Networks (DQN) para tomar decisões ótimas sem intervenção humana.",
-    
+    proj_1_title: "Pong AI Agent",
+    proj_1_desc: "Agente autônomo treinado via Deep Q-Networks (DQN).",
+
     proj_2_title: "Serverless Data Pipeline",
-    proj_2_desc: "Arquitetura 100% serverless na AWS. Processa dados de pregão da B3 utilizando S3 Events, Lambda e Glue Jobs, disponibilizando dados prontos para análise.",
-    btn_arch: "📐 Ver Arquitetura",
+    proj_2_desc:
+      "Arquitetura 100% serverless na AWS para dados financeiros da B3.",
 
     proj_3_title: "LiveLink Streaming",
-    proj_3_desc: "Sistema de vídeo em tempo real com latência <300ms. Arquitetura Mesh P2P via WebRTC, eliminando servidores de mídia intermediários.",
+    proj_3_desc:
+      "Streaming P2P de baixa latência (<300ms) sem servidores de mídia.",
 
     proj_4_title: "Enterprise Books API",
-    proj_4_desc: "Backend robusto com autenticação JWT e documentação Swagger (OpenAPI). Inclui pipeline de Web Scraping automatizado.",
+    proj_4_desc: "API robusta com JWT e Swagger. Demo Live.",
 
-    proj_5_title: "Battleship AI",
-    proj_5_desc: "IA tática que utiliza mapas de calor probabilísticos em tempo real. Calcula estatisticamente a melhor jogada a cada turno.",
-
-    btn_code: "Ver Código",
-    btn_live: "Ver Demo Online",
+    proj_5_title: "Probabilistic Battleship",
+    proj_5_desc: "IA baseada em mapas de calor probabilísticos.",
 
     // SKILLS
-    skills_title: "Stack Tecnológico",
-    skills_ai_title: "AI & Data Engineering",
-    skills_backend_title: "Backend & Cloud",
-    skills_systems_title: "Systems & Real-Time",
+    skills_title: "Expertise",
+    skills_ai_title: "Data & AI",
+    skills_backend_title: "Cloud & Backend",
+    skills_systems_title: "Real-Time Systems",
 
     // SOBRE
-    about_title: "Sobre mim",
-    about_p1: "Engenheiro focado na intersecção entre Dados e Software. Minha experiência vai da criação de pipelines ETL na AWS até o desenvolvimento de algoritmos de IA.",
-    edu_1_title: "Pós: Machine Learning Eng.",
+    about_title: "Sobre Mim",
+    about_p1:
+      "Atuo na intersecção entre a precisão dos dados e a criatividade do software. Minha trajetória é marcada pela construção de pipelines ETL robustos na AWS e pelo desenvolvimento de algoritmos de Machine Learning aplicados ao mundo real.",
+    edu_1_title: "Pós-Graduação: ML Engineering",
     edu_1_school: "FIAP (Previsto: 2026)",
     edu_2_title: "Gestão de TI",
-    edu_2_school: "FAM (2024)",
+    edu_2_school: "FAM (2025)",
 
     // FOOTER
-    footer_title: "Interessado em colaborar?",
-    footer_desc: "Disponível para oportunidades em Engenharia de Dados, Python e ML.",
-    footer_btn_contact: "Entre em Contato"
+    footer_title: "Vamos construir algo incrível.",
+    footer_btn_contact: "Entre em Contato",
   },
   en: {
     site_title: "Eros Nicolino — Software Engineer",
@@ -71,58 +71,56 @@ const translations = {
     nav_contact: "Contact",
 
     // HERO
-    hero_title: "Software Engineer | <span class=\"highlight\">Data, AI & Real-Time Systems</span>",
-    hero_lead: "Designing and building scalable data pipelines, AI models, and real-time systems end-to-end.",
-    hero_btn_projects: "View Projects",
-    hero_btn_cv: "Download Resume",
+    hero_title:
+      'Crafting logic into <br /> <span class="italic-accent">intelligent systems.</span>',
+    hero_lead:
+      "Specializing in Data Engineering, AI, and Real-Time Systems. Turning complexity into scalable architectures.",
+    hero_btn_projects: "View Portfolio",
+    hero_btn_cv: "Download CV",
 
     // PROJECTS
-    projects_title: "Featured Projects",
+    projects_title: "Selected Projects",
 
     // TAGS
-    tag_pong: "AI Agent • Reinforcement Learning",
-    tag_pipeline: "Serverless Architecture • Data Engineering",
-    tag_livelink: "Real-Time System • Low Latency",
-    tag_api: "Production-Grade API",
-    tag_battleship: "Algorithmic Logic",
+    tag_pong: "AI Agent",
+    tag_pipeline: "Data Engineering",
+    tag_livelink: "WebRTC & Sockets",
+    tag_api: "Backend API",
+    tag_battleship: "Algorithms",
 
-    proj_1_title: "Pong AI - Reinforcement Learning",
-    proj_1_desc: "Autonomous agent trained with 50,000+ iterations using Deep Q-Networks (DQN). The model learns optimal policies through reward maximization.",
+    proj_1_title: "Pong AI Agent",
+    proj_1_desc: "Autonomous agent trained via Deep Q-Networks (DQN).",
 
     proj_2_title: "Serverless Data Pipeline",
-    proj_2_desc: "Fully serverless Data Engineering architecture on AWS. Ingests and processes financial data using S3 Event triggers, AWS Lambda, and Glue Jobs.",
-    btn_arch: "📐 View Architecture",
+    proj_2_desc: "Fully serverless architecture on AWS for B3 financial data.",
 
     proj_3_title: "LiveLink Streaming",
-    proj_3_desc: "Real-time video system with sub-300ms latency. Implements a Mesh P2P architecture via WebRTC, removing the need for media servers.",
+    proj_3_desc: "Low-latency (<300ms) P2P streaming without media servers.",
 
     proj_4_title: "Enterprise Books API",
-    proj_4_desc: "Production-ready backend featuring JWT authentication and automated Swagger documentation. Integrates a web scraping pipeline.",
+    proj_4_desc: "Robust API with JWT and Swagger. Live Demo.",
 
-    proj_5_title: "Battleship AI",
-    proj_5_desc: "Tactical AI powered by real-time probabilistic heatmaps. It calculates the statistically highest-value move every turn.",
-
-    btn_code: "View Code",
-    btn_live: "Live Demo",
+    proj_5_title: "Probabilistic Battleship",
+    proj_5_desc: "AI powered by probabilistic heatmaps.",
 
     // SKILLS
-    skills_title: "Tech Stack",
-    skills_ai_title: "AI & Data Engineering",
-    skills_backend_title: "Backend & Cloud",
-    skills_systems_title: "Systems & Real-Time",
+    skills_title: "Expertise",
+    skills_ai_title: "Data & AI",
+    skills_backend_title: "Cloud & Backend",
+    skills_systems_title: "Real-Time Systems",
 
     // ABOUT
     about_title: "About Me",
-    about_p1: "Software Engineer operating at the intersection of Data and Systems. My expertise ranges from building serverless ETL pipelines on AWS to developing AI algorithms.",
-    edu_1_title: "Postgrad: Machine Learning Eng.",
+    about_p1:
+      "Operating at the intersection of data precision and software creativity. My journey is marked by building robust ETL pipelines on AWS and developing Machine Learning algorithms applied to the real world.",
+    edu_1_title: "Postgrad: ML Engineering",
     edu_1_school: "FIAP (Expected: 2026)",
     edu_2_title: "IT Management",
-    edu_2_school: "FAM (2024)",
+    edu_2_school: "FAM (2025)",
 
     // FOOTER
-    footer_title: "Open to Work",
-    footer_desc: "Available for opportunities in Data Engineering, Python, and Machine Learning.",
-    footer_btn_contact: "Get in Touch"
+    footer_title: "Let's build something amazing.",
+    footer_btn_contact: "Get in Touch",
   },
   es: {
     site_title: "Eros Nicolino — Ingeniero de Software",
@@ -133,70 +131,69 @@ const translations = {
     nav_contact: "Contacto",
 
     // HERO
-    hero_title: "Ingeniero de Software | <span class=\"highlight\">Datos, IA y Sistemas en Tiempo Real</span>",
-    hero_lead: "Diseñando y construyendo pipelines de datos, modelos de IA y sistemas en tiempo real de punta a punta.",
-    hero_btn_projects: "Ver Proyectos",
+    hero_title:
+      'Crafting logic into <br /> <span class="italic-accent">intelligent systems.</span>',
+    hero_lead:
+      "Especialista en Ingeniería de Datos, IA y Sistemas en Tiempo Real. Transformando complejidad en arquitecturas escalables.",
+    hero_btn_projects: "Ver Portafolio",
     hero_btn_cv: "Descargar CV",
 
     // PROJECTS
-    projects_title: "Proyectos Destacados",
+    projects_title: "Proyectos Seleccionados",
 
     // TAGS
-    tag_pong: "Agente de IA • Aprendizaje por Refuerzo",
-    tag_pipeline: "Arquitectura Serverless • Ingeniería de Datos",
-    tag_livelink: "Sistema en Tiempo Real • Baja Latencia",
-    tag_api: "API Profesional (Production-Grade)",
-    tag_battleship: "Lógica Algorítmica",
+    tag_pong: "Agente de IA",
+    tag_pipeline: "Ingeniería de Datos",
+    tag_livelink: "WebRTC & Sockets",
+    tag_api: "Backend API",
+    tag_battleship: "Algorithms",
 
-    proj_1_title: "Pong AI - Aprendizaje por Refuerzo",
-    proj_1_desc: "Agente autónomo entrenado con más de 50.000 iteraciones utilizando Deep Q-Networks (DQN). Aprende estrategias óptimas maximizando recompensas.",
+    proj_1_title: "Pong AI Agent",
+    proj_1_desc: "Agente autónomo entrenado vía Deep Q-Networks (DQN).",
 
     proj_2_title: "Pipeline de Datos Serverless",
-    proj_2_desc: "Arquitectura de Ingeniería de Datos 100% serverless en AWS. Procesa datos financieros utilizando eventos S3, AWS Lambda y Jobs de Glue.",
-    btn_arch: "📐 Ver Arquitectura",
+    proj_2_desc: "Arquitectura 100% serverless en AWS para datos financieros.",
 
     proj_3_title: "LiveLink Streaming",
-    proj_3_desc: "Sistema de video en tiempo real con latencia <300ms. Arquitectura P2P Mesh vía WebRTC, eliminando servidores de medios intermedios.",
+    proj_3_desc:
+      "Streaming P2P de baja latencia (<300ms) sin servidores de medios.",
 
     proj_4_title: "Enterprise Books API",
-    proj_4_desc: "Backend profesional con autenticación JWT y documentación Swagger automática. Incluye pipeline de Web Scraping.",
+    proj_4_desc: "API robusta con JWT y Swagger. Demo Live.",
 
-    proj_5_title: "Battleship AI",
-    proj_5_desc: "IA táctica que utiliza mapas de calor probabilísticos. Calcula estadísticamente la mejor jugada en cada turno.",
-
-    btn_code: "Ver Código",
-    btn_live: "Ver Demo",
+    proj_5_title: "Probabilistic Battleship",
+    proj_5_desc: "IA basada en mapas de calor probabilísticos.",
 
     // SKILLS
-    skills_title: "Stack Tecnológico",
-    skills_ai_title: "IA e Ingeniería de Datos",
-    skills_backend_title: "Backend y Cloud",
-    skills_systems_title: "Sistemas y Tiempo Real",
+    skills_title: "Expertise",
+    skills_ai_title: "Data & AI",
+    skills_backend_title: "Cloud & Backend",
+    skills_systems_title: "Sistemas Real-Time",
 
     // ABOUT
     about_title: "Sobre mí",
-    about_p1: "Ingeniero enfocado en la intersección de Datos y Software. Mi experiencia abarca desde pipelines ETL en AWS hasta algoritmos de IA.",
-    edu_1_title: "Posgrado: Machine Learning Eng.",
+    about_p1:
+      "Actúo en la intersección entre la precisión de los datos y la creatividad del software. Mi trayectoria está marcada por la construcción de pipelines ETL robustos en AWS y algoritmos de ML.",
+    edu_1_title: "Posgrado: ML Engineering",
     edu_1_school: "FIAP (Previsto: 2026)",
     edu_2_title: "Gestión de TI",
-    edu_2_school: "FAM (2024)",
+    edu_2_school: "FAM (5)",
 
     // FOOTER
-    footer_title: "¿Interesado en colaborar?",
-    footer_desc: "Disponible para oportunidades en Ingeniería de Datos, Python y ML.",
-    footer_btn_contact: "Contáctame"
-  }
+    footer_title: "Construyamos algo increíble.",
+    footer_btn_contact: "Contáctame",
+  },
 };
 
-document.addEventListener('DOMContentLoaded', () => {
-  const langButtons = document.querySelectorAll('.lang-btn');
-  
+document.addEventListener("DOMContentLoaded", () => {
+  const langButtons = document.querySelectorAll(".lang-btn");
+
   const setLanguage = (lang) => {
     const langData = translations[lang];
-    if (!langData) return; 
+    if (!langData) return;
 
-    document.querySelectorAll('[data-lang-key]').forEach(element => {
-      const key = element.getAttribute('data-lang-key');
+    document.querySelectorAll("[data-lang-key]").forEach((element) => {
+      const key = element.getAttribute("data-lang-key");
       const translation = langData[key];
       if (translation) {
         element.innerHTML = translation;
@@ -204,65 +201,69 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.documentElement.lang = lang;
-    document.title = langData.site_title.replace(/<[^>]*>?/gm, '');
-    localStorage.setItem('preferredLanguage', lang);
-    langButtons.forEach(btn => {
-      btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+    document.title = langData.site_title.replace(/<[^>]*>?/gm, "");
+    localStorage.setItem("preferredLanguage", lang);
+    langButtons.forEach((btn) => {
+      btn.classList.toggle("active", btn.getAttribute("data-lang") === lang);
     });
   };
 
   const initLanguageSwitcher = () => {
-    langButtons.forEach(button => {
-      button.addEventListener('click', () => {
-        const selectedLang = button.getAttribute('data-lang');
+    langButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const selectedLang = button.getAttribute("data-lang");
         setLanguage(selectedLang);
       });
     });
-    const savedLang = localStorage.getItem('preferredLanguage') || 'pt';
+    const savedLang = localStorage.getItem("preferredLanguage") || "pt";
     setLanguage(savedLang);
   };
 
   const initMobileMenu = () => {
-    const navToggle = document.querySelector('.nav-toggle');
-    const nav = document.querySelector('.nav');
+    const navToggle = document.querySelector(".nav-toggle");
+    const nav = document.querySelector(".nav");
+
     if (!navToggle || !nav) return;
-    navToggle.addEventListener('click', () => {
-      nav.classList.toggle('nav-open');
-      const isExpanded = nav.classList.contains('nav-open');
-      navToggle.setAttribute('aria-expanded', isExpanded);
+
+    navToggle.addEventListener("click", () => {
+      const isVisible = nav.getAttribute("data-visible") === "true";
+      nav.setAttribute("data-visible", !isVisible);
+      navToggle.setAttribute("aria-expanded", !isVisible);
     });
-    document.querySelectorAll('.nav-list a').forEach(link => {
-      link.addEventListener('click', () => {
-        if (nav.classList.contains('nav-open')) {
-          nav.classList.remove('nav-open');
-          navToggle.setAttribute('aria-expanded', 'false');
-        }
+
+    document.querySelectorAll(".nav-list a").forEach((link) => {
+      link.addEventListener("click", () => {
+        nav.setAttribute("data-visible", "false");
+        navToggle.setAttribute("aria-expanded", "false");
       });
     });
   };
 
   const initScrollFadeIn = () => {
-    const sections = document.querySelectorAll('.scroll-reveal');
+    const sections = document.querySelectorAll(".scroll-reveal, .reveal-item");
     if (sections.length === 0) return;
-    
-    const observer = new IntersectionObserver((entries, obs) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          obs.unobserve(entry.target); 
-        }
-      });
-    }, { root: null, rootMargin: '0px', threshold: 0.1 });
-    
-    sections.forEach(section => observer.observe(section));
+
+    const observer = new IntersectionObserver(
+      (entries, obs) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            obs.unobserve(entry.target);
+          }
+        });
+      },
+      { root: null, rootMargin: "0px 0px -50px 0px", threshold: 0.1 }
+    );
+
+    sections.forEach((section) => observer.observe(section));
   };
 
   const initFooterYear = () => {
-    const yearSpan = document.getElementById('year');
+    const yearSpan = document.getElementById("year");
     if (yearSpan) yearSpan.textContent = new Date().getFullYear();
   };
 
-  initLanguageSwitcher(); 
+  initLanguageSwitcher();
   initMobileMenu();
   initScrollFadeIn();
   initFooterYear();

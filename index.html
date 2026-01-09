@@ -1,255 +1,374 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  
-  <title data-lang-key="site_title">Eros Nicolino — Software Engineer</title>
-  
-  <meta name="description" content="Software Engineer specializing in Data Engineering, Machine Learning, and Real-Time Systems using Python and AWS.">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/png" href="assets/favicon.png"> 
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title data-lang-key="site_title">Eros Nicolino — Software Engineer</title>
+    <meta
+      name="description"
+      content="Software Engineer specializing in Data Engineering, Machine Learning, and Real-Time Systems."
+    />
 
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#home">Eros Nicolino</a>
-      
-      <div class="nav-main">
-        <nav class="nav" id="primary-navigation" data-visible="false">
-          <ul class="nav-list">
-            <li><a href="#home" data-lang-key="nav_home">Home</a></li>
-            <li><a href="#projects" data-lang-key="nav_projects">Projetos</a></li>
-            <li><a href="#skills" data-lang-key="nav_skills">Skills</a></li>
-            <li><a href="#about" data-lang-key="nav_about">Sobre</a></li>
-            <li><a class="nav-contact-btn" href="mailto:erosnicolino@icloud.com" data-lang-key="nav_contact">Contato</a></li>
-          </ul>
-        </nav>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
 
-        <div class="lang-switcher">
-          <button class="lang-btn active" data-lang="pt">BR</button>
-          <button class="lang-btn" data-lang="en">EN</button>
-          <button class="lang-btn" data-lang="es">ES</button>
-        </div>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+  </head>
+  <body>
+    <div class="noise-overlay"></div>
 
-        <button class="nav-toggle" aria-controls="primary-navigation" aria-label="Menu" aria-expanded="false">
-          <span aria-hidden="true">☰</span>
-        </button>
-      </div>
-    </div>
-  </header>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home">Eros N.</a>
 
-  <main>
+        <div class="nav-wrapper">
+          <nav class="nav" id="primary-navigation" data-visible="false">
+            <ul class="nav-list">
+              <li><a href="#home" data-lang-key="nav_home">Home</a></li>
+              <li><a href="#about" data-lang-key="nav_about">Sobre</a></li>
+              <li><a href="#skills" data-lang-key="nav_skills">Skills</a></li>
+              <li>
+                <a href="#projects" data-lang-key="nav_projects">Projetos</a>
+              </li>
+              <li>
+                <a
+                  class="btn-nav-contact"
+                  href="mailto:erosnicolino@icloud.com"
+                  data-lang-key="nav_contact"
+                  >Contato</a
+                >
+              </li>
+            </ul>
+          </nav>
 
-    <section id="home" class="hero scroll-reveal">
-      <div class="container hero-inner">
-        <div class="hero-text">
-          <h1 data-lang-key="hero_title">Software Engineer | <span class="highlight">Data, AI & Real-Time Systems</span></h1>
-          <p class="lead" data-lang-key="hero_lead">Designing and building scalable data pipelines, AI models, and real-time systems end-to-end.</p>
-          <div class="actions">
-            <a class="btn" href="#projects" data-lang-key="hero_btn_projects">Ver Projetos</a>
-            <a class="btn ghost" href="https://github.com/ErosNicolino" target="_blank">GitHub</a>
-            <a class="btn-contact" href="assets/Curriculo.pdf" download data-lang-key="hero_btn_cv">Download CV</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="projects container">
-      <h2 data-lang-key="projects_title" class="scroll-reveal">Projetos em Destaque</h2>
-      <div class="zigzag">
-        
-        <article class="project reverse scroll-reveal">
-          <div class="proj-text">
-            <span class="proj-tag" data-lang-key="tag_pong">AI Agent • Reinforcement Learning</span>
-            <h3 data-lang-key="proj_1_title">Pong AI</h3>
-            <div class="tech-list">
-              <span>Python</span>
-              <span>Deep Q-Learning</span>
-              <span>Pygame</span>
-            </div>
-            <p data-lang-key="proj_1_desc">Agente autônomo treinado com mais de 50.000 iterações para dominar o jogo Pong. Utiliza Deep Q-Networks (DQN) para tomar decisões ótimas baseadas em recompensa.</p>
-            <div class="proj-actions">
-              <a class="btn" href="https://github.com/ErosNicolino/PongAI" target="_blank" data-lang-key="btn_code">Ver Código</a>
-            </div>
-          </div>
-          <div class="proj-img">
-            <img src="assets/PongWin.gif" alt="Pong AI Agent playing" loading="lazy">
-          </div>
-        </article>
-        
-        <article class="project scroll-reveal">
-          <div class="proj-text">
-            <span class="proj-tag" data-lang-key="tag_pipeline">Serverless Architecture • Data Engineering</span>
-            <h3 data-lang-key="proj_2_title">Serverless Data Pipeline</h3>
-            <div class="tech-list">
-              <span>AWS Glue</span>
-              <span>Lambda</span>
-              <span>S3</span>
-              <span>Athena</span>
-            </div>
-            <p data-lang-key="proj_2_desc">Arquitetura de Engenharia de Dados 100% serverless na AWS. Ingestão e processamento de dados financeiros da B3 usando S3 Events triggers e Glue Jobs.</p>
-            <div class="proj-actions">
-              <a class="btn" href="assets/bovespa-architecture.png" target="_blank" data-lang-key="btn_arch">📐 Ver Arquitetura</a>
-              <a class="btn ghost" href="https://github.com/ErosNicolino" target="_blank" data-lang-key="btn_code">Ver Código</a>
-            </div>
-          </div>
-          <div class="proj-img">
-            <img src="assets/project-bovespa-inprogress.jpg" alt="AWS Data Pipeline Architecture" loading="lazy">
-          </div>
-        </article>
-
-        <article class="project reverse scroll-reveal">
-          <div class="proj-text">
-            <span class="proj-tag" data-lang-key="tag_livelink">Real-Time System • Low Latency</span>
-            <h3 data-lang-key="proj_3_title">LiveLink Streaming</h3>
-            <div class="tech-list">
-              <span>WebRTC</span>
-              <span>Node.js</span>
-              <span>Socket.io</span>
-            </div>
-            <p data-lang-key="proj_3_desc">Sistema de vídeo em tempo real com latência abaixo de 300ms. Utiliza arquitetura Peer-to-Peer (Mesh) eliminando servidores de mídia intermediários.</p>
-            <div class="proj-actions">
-              <a class="btn ghost" href="https://github.com/ErosNicolino/LiveLink-WebRTC" target="_blank" data-lang-key="btn_code">Ver Código</a>
-            </div>
-          </div>
-          <div class="proj-img">
-            <img src="assets/Primeiro Teste.gif" alt="WebRTC Video Streaming" loading="lazy">
-          </div>
-        </article>
-
-        <article class="project scroll-reveal">
-          <div class="proj-text">
-             <span class="proj-tag" data-lang-key="tag_api">Production-Grade API</span>
-            <h3 data-lang-key="proj_4_title">Enterprise Books API</h3>
-            <div class="tech-list">
-              <span>Python / Flask</span>
-              <span>JWT Auth</span>
-              <span>Swagger</span>
-            </div>
-            <p data-lang-key="proj_4_desc">Backend profissional com autenticação JWT segura e documentação Swagger automática. Integra um pipeline de Web Scraping para coleta de dados.</p>
-            <div class="proj-actions">
-              <a class="btn" href="https://tech-challenge-books-api-mkqn.onrender.com" target="_blank" data-lang-key="btn_live">Live Demo</a>
-              <a class="btn ghost" href="https://github.com/ErosNicolino/tech-challenge-books-api" target="_blank" data-lang-key="btn_code">Ver Código</a>
-            </div>
-          </div>
-          <div class="proj-img">
-            <img src="assets/project-2.jpg" alt="Books API Dashboard" loading="lazy">
-          </div>
-        </article>
-
-        <article class="project reverse scroll-reveal">
-          <div class="proj-text">
-            <span class="proj-tag" data-lang-key="tag_battleship">Algorithmic Logic</span>
-            <h3 data-lang-key="proj_5_title">Battleship AI</h3>
-            <div class="tech-list">
-              <span>JavaScript</span>
-              <span>Heuristics</span>
-              <span>Probability</span>
-            </div>
-            <p data-lang-key="proj_5_desc">IA tática que não "chuta" aleatoriamente. Utiliza mapas de calor probabilísticos atualizados a cada turno para calcular a jogada.</p>
-            <div class="proj-actions">
-              <a class="btn" href="https://battleship-probabilistic-ai.vercel.app/" target="_blank" data-lang-key="btn_live">Live Demo</a>
-              <a class="btn ghost" href="https://github.com/ErosNicolino/battleship-probabilistic-ai" target="_blank" data-lang-key="btn_code">Ver Código</a>
-            </div>
-          </div>
-          <div class="proj-img">
-            <img src="assets/heatmap-demo.png" alt="Battleship AI Heatmap" loading="lazy">
-          </div>
-        </article>
-
-      </div>
-    </section>
-
-    <section id="skills" class="skills-section scroll-reveal">
-      <div class="container">
-        <h2 data-lang-key="skills_title">Stack Tecnológico</h2>
-        <div class="skills-grid">
-          
-          <div class="skill-group">
-            <h3 data-lang-key="skills_ai_title">AI & Data Engineering</h3>
-            <div class="skills">
-              <span>Python</span>
-              <span>AWS Glue</span>
-              <span>Lambda</span>
-              <span>Reinforcement Learning</span>
-              <span>Pandas/NumPy</span>
-              <span>SQL</span>
-            </div>
+          <div class="lang-switcher">
+            <button class="lang-btn active" data-lang="pt">BR</button>
+            <span class="divider">/</span>
+            <button class="lang-btn" data-lang="en">EN</button>
+            <span class="divider">/</span>
+            <button class="lang-btn" data-lang="es">ES</button>
           </div>
 
-          <div class="skill-group">
-            <h3 data-lang-key="skills_backend_title">Backend & Cloud</h3>
-            <div class="skills">
-              <span>AWS (S3, Athena, RDS)</span>
-              <span>Flask/FastAPI</span>
-              <span>Docker</span>
-              <span>PostgreSQL</span>
-              <span>REST APIs</span>
-            </div>
-          </div>
-
-          <div class="skill-group">
-            <h3 data-lang-key="skills_systems_title">Systems & Real-Time</h3>
-            <div class="skills">
-              <span>WebRTC</span>
-              <span>Socket.io</span>
-              <span>Git/CI/CD</span>
-              <span>Linux</span>
-              <span>Data Structures</span>
-            </div>
-          </div>
-
+          <button
+            class="nav-toggle"
+            aria-controls="primary-navigation"
+            aria-expanded="false"
+          >
+            <span class="hamburger"></span>
+          </button>
         </div>
       </div>
-    </section>
+    </header>
 
-    <section id="about" class="about container scroll-reveal">
-      <div class="about-inner">
-        <div class="about-text">
-          <h2 data-lang-key="about_title">Sobre mim</h2>
-          <p data-lang-key="about_p1">Engenheiro focado na intersecção entre Dados e Software. Minha experiência vai da criação de pipelines ETL na AWS até o desenvolvimento de algoritmos de IA e sistemas web complexos.</p>
-          
-          <div class="mini-resume">
-            <div class="resume-item">
-              <strong data-lang-key="edu_1_title">Pós-Graduação: Machine Learning Eng.</strong>
-              <span data-lang-key="edu_1_school">FIAP (Previsto: 2026)</span>
-            </div>
-            <div class="resume-item">
-              <strong data-lang-key="edu_2_title">Gestão de TI</strong>
-              <span data-lang-key="edu_2_school">FAM (2024)</span>
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-content reveal-group">
+            <span class="overline reveal-item">Software Engineer</span>
+            <h1 class="reveal-item" data-lang-key="hero_title">
+              Crafting logic into <br />
+              <span class="italic-accent">intelligent systems.</span>
+            </h1>
+            <p class="lead reveal-item" data-lang-key="hero_lead">
+              Especialista em Engenharia de Dados, IA e Sistemas de Tempo Real.
+              Transformando complexidade em arquiteturas escaláveis.
+            </p>
+            <div class="hero-actions reveal-item">
+              <a
+                class="btn primary"
+                href="#projects"
+                data-lang-key="hero_btn_projects"
+                >Ver Portfolio</a
+              >
+              <a
+                class="link-arrow"
+                href="assets/Curriculo.pdf"
+                download
+                data-lang-key="hero_btn_cv"
+              >
+                Download CV <span class="arrow">↗</span>
+              </a>
             </div>
           </div>
-
         </div>
-        <div class="about-media">
-           <img src="assets/profile.jpg" alt="Eros Nicolino" class="profile-photo" width="300" height="300" loading="lazy">
+      </section>
+
+      <section id="about" class="about section-padding">
+        <div class="container">
+          <div class="about-grid">
+            <div class="about-image scroll-reveal">
+              <div class="img-frame">
+                <img
+                  src="assets/profile.jpg"
+                  alt="Eros Nicolino"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="about-text scroll-reveal">
+              <h2 class="section-title" data-lang-key="about_title">
+                Sobre Mim
+              </h2>
+              <p data-lang-key="about_p1">
+                Atuo na intersecção entre a precisão dos dados e a criatividade
+                do software. Minha trajetória é marcada pela construção de
+                pipelines ETL robustos na AWS e pelo desenvolvimento de
+                algoritmos de Machine Learning aplicados ao mundo real.
+              </p>
+
+              <div class="education-list">
+                <div class="edu-item">
+                  <span class="year">2026</span>
+                  <div class="details">
+                    <strong data-lang-key="edu_1_title"
+                      >Pós-Graduação: ML Engineering</strong
+                    >
+                    <span data-lang-key="edu_1_school">FIAP</span>
+                  </div>
+                </div>
+                <div class="edu-item">
+                  <span class="year">2025</span>
+                  <div class="details">
+                    <strong data-lang-key="edu_2_title">Gestão de TI</strong>
+                    <span data-lang-key="edu_2_school">FAM</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills section-padding">
+        <div class="container">
+          <div class="section-header scroll-reveal">
+            <h2 class="section-title" data-lang-key="skills_title">
+              Expertise
+            </h2>
+            <p class="section-subtitle">
+              Stack tecnológica focada em performance e escalabilidade.
+            </p>
+          </div>
+
+          <div class="skills-wrapper scroll-reveal">
+            <div class="skill-card">
+              <div class="card-icon">◇</div>
+              <h3 data-lang-key="skills_ai_title">Data & AI</h3>
+              <ul class="skill-tags">
+                <li>Python</li>
+                <li>AWS Glue</li>
+                <li>Lambda</li>
+                <li>Reinforcement Learning</li>
+                <li>Pandas/NumPy</li>
+                <li>SQL</li>
+              </ul>
+            </div>
+
+            <div class="skill-card">
+              <div class="card-icon">◈</div>
+              <h3 data-lang-key="skills_backend_title">Cloud & Backend</h3>
+              <ul class="skill-tags">
+                <li>AWS (S3, Athena, RDS)</li>
+                <li>Flask/FastAPI</li>
+                <li>Docker</li>
+                <li>PostgreSQL</li>
+                <li>REST APIs</li>
+              </ul>
+            </div>
+
+            <div class="skill-card">
+              <div class="card-icon">◆</div>
+              <h3 data-lang-key="skills_systems_title">Real-Time Systems</h3>
+              <ul class="skill-tags">
+                <li>WebRTC</li>
+                <li>Socket.io</li>
+                <li>CI/CD</li>
+                <li>Linux</li>
+                <li>Data Structures</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section-padding">
+        <div class="container">
+          <h2
+            class="section-title text-center scroll-reveal"
+            data-lang-key="projects_title"
+          >
+            Projetos Selecionados
+          </h2>
+
+          <div class="projects-gallery">
+            <article class="project-card scroll-reveal">
+              <div class="card-image">
+                <img
+                  src="assets/Diagrama.png"
+                  alt="AWS Architecture"
+                  loading="lazy"
+                />
+                <div class="overlay">
+                  <a
+                    href="https://github.com/ErosNicolino/Serverless-Financial-Data-Pipeline-on-AWS"
+                    target="_blank"
+                    class="btn-circle"
+                    >→</a
+                  >
+                </div>
+              </div>
+              <div class="card-content">
+                <span class="meta" data-lang-key="tag_pipeline"
+                  >Data Engineering</span
+                >
+                <h3 data-lang-key="proj_2_title">Serverless Data Pipeline</h3>
+                <p data-lang-key="proj_2_desc">
+                  Arquitetura 100% serverless na AWS para dados financeiros da
+                  B3.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card scroll-reveal">
+              <div class="card-image">
+                <img src="assets/PongWin.gif" alt="Pong AI" loading="lazy" />
+                <div class="overlay">
+                  <a
+                    href="https://github.com/ErosNicolino/PongAI"
+                    target="_blank"
+                    class="btn-circle"
+                    >→</a
+                  >
+                </div>
+              </div>
+              <div class="card-content">
+                <span class="meta" data-lang-key="tag_pong"
+                  >Reinforcement Learning</span
+                >
+                <h3 data-lang-key="proj_1_title">Pong AI Agent</h3>
+                <p data-lang-key="proj_1_desc">
+                  Agente autônomo treinado via Deep Q-Networks (DQN).
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card scroll-reveal">
+              <div class="card-image">
+                <img
+                  src="assets/Primeiro Teste.gif"
+                  alt="LiveLink"
+                  loading="lazy"
+                />
+                <div class="overlay">
+                  <a
+                    href="https://github.com/ErosNicolino/LiveLink-WebRTC"
+                    target="_blank"
+                    class="btn-circle"
+                    >→</a
+                  >
+                </div>
+              </div>
+              <div class="card-content">
+                <span class="meta" data-lang-key="tag_livelink"
+                  >WebRTC & Sockets</span
+                >
+                <h3 data-lang-key="proj_3_title">LiveLink Streaming</h3>
+                <p data-lang-key="proj_3_desc">
+                  Streaming P2P de baixa latência (<300ms) sem servidores de
+                  mídia.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card scroll-reveal">
+              <div class="card-image">
+                <img
+                  src="assets/project-2.jpg"
+                  alt="API Dashboard"
+                  loading="lazy"
+                />
+                <div class="overlay">
+                  <a
+                    href="https://github.com/ErosNicolino/tech-challenge-books-api"
+                    target="_blank"
+                    class="btn-circle"
+                    >→</a
+                  >
+                </div>
+              </div>
+              <div class="card-content">
+                <span class="meta" data-lang-key="tag_api">Backend API</span>
+                <h3 data-lang-key="proj_4_title">Enterprise Books API</h3>
+                <p data-lang-key="proj_4_desc">
+                  API robusta com JWT e Swagger.
+                  <a
+                    href="https://tech-challenge-books-api-mkqn.onrender.com"
+                    target="_blank"
+                    >Demo Live</a
+                  >.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card scroll-reveal">
+              <div class="card-image">
+                <img
+                  src="assets/heatmap-demo.png"
+                  alt="Battleship AI"
+                  loading="lazy"
+                />
+                <div class="overlay">
+                  <a
+                    href="https://github.com/ErosNicolino/battleship-probabilistic-ai"
+                    target="_blank"
+                    class="btn-circle"
+                    >→</a
+                  >
+                </div>
+              </div>
+              <div class="card-content">
+                <span class="meta" data-lang-key="tag_battleship"
+                  >Algorithms</span
+                >
+                <h3 data-lang-key="proj_5_title">Probabilistic Battleship</h3>
+                <p data-lang-key="proj_5_desc">
+                  IA baseada em mapas de calor probabilísticos.
+                  <a
+                    href="https://battleship-probabilistic-ai.vercel.app/"
+                    target="_blank"
+                    >Jogar</a
+                  >.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <h3 data-lang-key="footer_title">Vamos construir algo incrível.</h3>
+          <a href="mailto:erosnicolino@icloud.com" class="email-link"
+            >erosnicolino@icloud.com</a
+          >
+        </div>
+        <div class="footer-right">
+          <a href="https://github.com/ErosNicolino" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/erosnicolino" target="_blank"
+            >LinkedIn</a
+          >
+          <span class="copyright">© 2025 Eros Nicolino</span>
         </div>
       </div>
-    </section>
+    </footer>
 
-  </main>
-
-  <footer class="footer scroll-reveal">
-    <div class="container footer-content">
-      <div class="footer-main">
-        <h3 data-lang-key="footer_title">Interessado em colaborar?</h3>
-        <p data-lang-key="footer_desc">Disponível para oportunidades em Engenharia de Dados, Python e ML.</p>
-        <div class="footer-buttons">
-          <a href="mailto:erosnicolino@icloud.com" class="btn" data-lang-key="footer_btn_contact">Entre em Contato</a>
-          <a href="https://www.linkedin.com/in/erosnicolino" target="_blank" class="btn ghost">LinkedIn</a>
-        </div>
-      </div>
-      <small class="footer-copy">© <span id="year">2025</span> Eros Nicolino.</small>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -128,34 +128,34 @@ const translations = {
     proj_3_metric_1: "✅ Sub-300ms Latency",
     proj_3_metric_2: "✅ P2P Horizontal Scalability",
 
-    // Project 3: Pong AI
-    proj_1_title: "Pong AI Agent (DQN)",
-    proj_1_desc:
-      "Autonomous agent trained with Deep Q-Networks demonstrating complex reward logic.",
-    proj_1_metric_1: "✅ +50,000 training iterations",
-    proj_1_metric_2: "✅ Win rate > 95%",
-
-    // Project 4: Books API
-    proj_4_title: "Enterprise Books API",
-    proj_4_desc:
-      "Production-ready API featuring automatic documentation and secure authentication.",
-    proj_4_metric_1: "✅ Secure Auth (JWT)",
-    proj_4_metric_2: "✅ Integrated Scraping Pipeline",
-
-    // Project 5: Battleship
-    proj_5_title: "Probabilistic Battleship",
-    proj_5_desc:
-      "Tactical AI powered by real-time probabilistic heatmaps calculating the statistically optimal move each turn.",
-    proj_5_metric_1: "✅ Purely statistical decision-making",
-    proj_5_metric_2: "✅ Real-time Heatmaps",
-
-    // Project 6: AeroPredict (NEW)
+    // Project 3: AeroPredict (NEW)
     proj_6_title: "AeroPredict — Flight Delay Prediction",
     proj_6_desc:
       "End-to-end Machine Learning pipeline for flight delay prediction using structured aviation data, featuring leakage prevention, stratified cross-validation, and model benchmarking.",
     proj_6_metric_1: "✅ Data Leakage-Free Pipeline",
     proj_6_metric_2: "✅ ROC-AUC ~0.64 with Stratified Validation",
     proj_6_metric_3: "✅ Feature Importance Analysis & Model Benchmarking",
+
+    // Project 4: Pong AI
+    proj_1_title: "Pong AI Agent (DQN)",
+    proj_1_desc:
+      "Autonomous agent trained with Deep Q-Networks demonstrating complex reward logic.",
+    proj_1_metric_1: "✅ +50,000 training iterations",
+    proj_1_metric_2: "✅ Win rate > 95%",
+
+    // Project 5: Books API
+    proj_4_title: "Enterprise Books API",
+    proj_4_desc:
+      "Production-ready API featuring automatic documentation and secure authentication.",
+    proj_4_metric_1: "✅ Secure Auth (JWT)",
+    proj_4_metric_2: "✅ Integrated Scraping Pipeline",
+
+    // Project 6: Battleship
+    proj_5_title: "Probabilistic Battleship",
+    proj_5_desc:
+      "Tactical AI powered by real-time probabilistic heatmaps calculating the statistically optimal move each turn.",
+    proj_5_metric_1: "✅ Purely statistical decision-making",
+    proj_5_metric_2: "✅ Real-time Heatmaps",
 
     // --- SKILLS & ABOUT ---
     skills_ai_title: "Data Engineering & AI",

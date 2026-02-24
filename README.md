@@ -1,7 +1,7 @@
 <div align="center">
 
   <h1>Eros Nicolino</h1>
-  <h3>Software Engineer</h3>
+  <h3>Software Engineer · Data & ML Specialist</h3>
 
   <p>
     <strong>Data Engineering</strong> ·
@@ -27,7 +27,7 @@
 
 ## ✦ Sobre o Projeto
 
-Este repositório contém meu **Portfólio Profissional (v3.0)**, desenvolvido como uma demonstração prática de **engenharia de software, arquitetura limpa e atenção extrema à experiência do usuário**.
+Este repositório contém meu **Portfólio Profissional (v3.0)**, desenvolvido como uma demonstração prática de **engenharia de software e arquitetura frontend desacoplada, arquitetura limpa e atenção extrema à experiência do usuário**.
 
 O design segue o conceito **Luxury Minimalist Editorial**, combinando tipografia serifada, espaçamentos generosos e uma paleta de tons terrosos, resultando em uma identidade visual sofisticada e atemporal.
 
@@ -48,20 +48,21 @@ O projeto foi construído **sem frameworks**, utilizando apenas **HTML5, CSS3 mo
 
 ## ✦ Projetos em Evidência
 
-| Área       | Projeto              | Tecnologias           | Descrição                                |
-| ---------- | -------------------- | --------------------- | ---------------------------------------- |
-| IA         | Pong AI (DQN)        | Python · Pygame       | Agente de RL treinado com +50k iterações |
-| Data Eng   | Serverless Pipeline  | AWS · Glue · Lambda   | ETL financeiro serverless                |
-| Real-Time  | LiveLink Streaming   | WebRTC · Socket.io    | Streaming P2P de baixa latência          |
-| Backend    | Enterprise Books API | Flask · JWT · Swagger | API REST profissional                    |
-| Algoritmos | Battleship AI        | JavaScript            | IA probabilística baseada em heurísticas |
+| Área             | Projeto              | Tecnologias                    | Descrição                                                   |
+| ---------------- | -------------------- | ------------------------------ | ----------------------------------------------------------- |
+| Machine Learning | AeroPredict          | Python · Scikit-Learn · Pandas | Pipeline de previsão de atrasos com validação estratificada |
+| IA               | Pong AI (DQN)        | Python · Pygame                | Agente de RL treinado com +50k iterações                    |
+| Data Engineering | Serverless Pipeline  | AWS · Glue · Lambda            | ETL financeiro serverless                                   |
+| Real-Time        | LiveLink Streaming   | WebRTC · Socket.io             | Streaming P2P de baixa latência                             |
+| Backend          | Enterprise Books API | Flask · JWT · Swagger          | API REST profissional                                       |
+| Algoritmos       | Battleship AI        | JavaScript                     | IA probabilística baseada em heurísticas                    |
 
 ---
 
 ## ✦ Stack Tecnológico
 
-**Data & AI**
-Python · Pandas · SQL · AWS Glue
+**Data & Machine Learning**
+Python · Pandas · NumPy · Scikit-Learn · SQL · AWS Glue
 
 **Backend & Cloud**
 AWS · Docker · Flask · PostgreSQL
@@ -81,6 +82,20 @@ portfolio/
 ├── assets/         # Imagens, ícones e currículo
 └── README.md       # Documentação
 ```
+
+---
+
+## ✦ Arquitetura & Filosofia
+
+O portfólio foi desenvolvido seguindo princípios de:
+
+- Arquitetura limpa e modular
+- Separação clara de responsabilidades
+- Performance-first (sem frameworks)
+- Internacionalização desacoplada
+- Escalabilidade estrutural para novos projetos
+
+O objetivo foi demonstrar domínio técnico sem depender de abstrações externas.
 
 ---
 

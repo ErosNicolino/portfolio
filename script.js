@@ -1,377 +1,233 @@
 const translations = {
   pt: {
-    // --- META & NAVIGATION ---
-    site_title: "Eros Nicolino — Engenheiro de IA e Machine Learning",
-    nav_home: "Home",
+    site_title: "Eros Nicolino — ML & Data Engineer",
+    site_description: "Portfólio de Eros Nicolino, engenheiro de Machine Learning e Dados com foco em Python, MLOps, AWS e sistemas prontos para produção.",
+    skip_link: "Ir para o conteúdo",
     nav_projects: "Projetos",
-    nav_skills: "Skills",
+    nav_expertise: "Especialidades",
     nav_journey: "Trajetória",
-    nav_cv: "CV ↓",
-
-    // --- HERO SECTION ---
-    hero_title:
-      'Engenheiro de IA e Machine Learning<br /><span class="italic-accent">Python · MLOps · Engenharia de Dados.</span>',
-    hero_lead:
-      "Engenharia de dados focada em redução de custos e escalabilidade. Transformo dados brutos em inteligência de negócio com arquiteturas AWS robustas.",
-    hero_btn_projects: "Ver Projetos & Impacto",
-    hero_btn_contact: "Entrar em Contato",
-
-    // --- PROJECTS SECTION ---
-    projects_title: "Projetos de Impacto",
-    projects_subtitle:
-      "Arquiteturas desenhadas para performance e eficiência de custos.",
-    impact_label: "Impacto:",
-    filter_featured: "Destaques",
-    filter_all: "Todos",
-    filter_apps: "Apps & Frontend",
-    metric_automation: "automação orientada a eventos",
-    metric_simulated_conversion: "conversão na simulação",
-    metric_validation: "validação estratificada",
-
-    // Buttons
-    btn_github: "GitHub & Docs",
-    btn_demo: "Ver Demo Online",
-
-    // Project 1: Financial Pipeline
-    proj_2_title: "Financial Data Pipeline",
-    proj_2_desc:
-      "Pipeline ETL processando dados da B3. Arquitetura orientada a eventos garantindo dados sempre atualizados.",
-    proj_2_metric_1: "✅ Custo Zero em Idle (Serverless)",
-    proj_2_metric_2: "✅ Automação 100% via EventBridge",
-
-    // Project 2: WebRTC
-    proj_3_title: "LiveLink Streaming",
-    proj_3_desc:
-      "Sistema de vídeo P2P eliminando custo de servidores de mídia intermediários.",
-    proj_3_metric_1: "✅ Latência Sub-300ms",
-    proj_3_metric_2: "✅ Escalabilidade Horizontal P2P",
-
-    // Project 3: Pong AI
-    proj_1_title: "Pong AI Agent (DQN)",
-    proj_1_desc:
-      "Agente autônomo treinado com Deep Q-Networks demonstrando lógica de recompensa complexa.",
-    proj_1_metric_1: "✅ +50.000 iterações de treino",
-    proj_1_metric_2: "✅ Taxa de vitória > 95%",
-
-    // Project 4: Books API
-    proj_4_title: "Enterprise Books API",
-    proj_4_desc:
-      "API Production-Ready com documentação automática e segurança implementada.",
-    proj_4_metric_1: "✅ Auth Segura (JWT)",
-    proj_4_metric_2: "✅ Pipeline de Scraping Integrado",
-
-    // Project 5: Battleship
-    proj_5_title: "Probabilistic Battleship",
-    proj_5_desc:
-      "IA tática baseada em mapas de calor probabilísticos calculando a melhor jogada estatisticamente a cada turno.",
-    proj_5_metric_1: "✅ Decisão puramente estatística",
-    proj_5_metric_2: "✅ Heatmaps em Tempo Real",
-
-    // Project 6: AeroPredict (NOVO)
-    proj_6_title: "AeroPredict — Previsão de Atrasos de Voos",
-    proj_6_desc:
-      "Pipeline completo de Machine Learning para previsão de atrasos de voos com prevenção de data leakage, validação cruzada estratificada e comparação entre modelos.",
-    proj_6_metric_1: "✅ Pipeline sem Data Leakage",
-    proj_6_metric_2: "✅ ROC-AUC ~0.64 com validação estratificada",
-    proj_6_metric_3:
-      "✅ Análise de importância de variáveis e benchmark entre modelos",
-
-    // Project 7: Adaptive Offer Recommendation
-    proj_7_title: "Recomendação Adaptativa de Ofertas",
-    proj_7_desc:
-      "Motor adaptativo que prioriza ofertas digitais com multi-armed bandits e histórico de contatos, exposto por uma API FastAPI.",
-    proj_7_metric_1:
-      "✅ 66,34% vs. 11,56% da baseline em simulação",
-    proj_7_metric_2: "✅ API online e experimentos rastreados com MLflow",
-
-    // Project 8: iFood Manager
-    proj_8_title: "iFood Manager",
-    proj_8_desc:
-      "Aplicativo desktop para gestão financeira e operacional de entregas, com indicadores, relatórios e predição de rentabilidade por bairro.",
-    proj_8_metric_1: "✅ Gestão local com SQLite e fallback web",
-    proj_8_metric_2: "✅ Predição contextual com clima e histórico",
-
-    // --- SKILLS & ABOUT ---
-    skills_ai_title: "IA & Machine Learning",
-    skills_data_title: "Data & Cloud",
-    skills_backend_title: "Backend & Systems",
-    skills_apps_title: "Frontend & Apps",
-    about_title: "Trajetória Técnica",
-    about_p1:
-      "Meu foco é resolver problemas de negócio complexos usando dados. Com forte base em matemática e algoritmos, transito entre infraestrutura de dados escalável na AWS e desenvolvimento backend de alta performance.",
-    edu_1_title: "Pós-Graduação: ML Engineering",
-    edu_1_school: "FIAP (Concluída · ago/2025–ago/2026)",
-    edu_2_title: "Gestão de TI",
-    edu_2_school: "FAM (Concluído · jan/2023–jul/2025 · 2 anos e meio)",
-    journey_1: "Freelance em suporte técnico e infraestrutura",
-    journey_2: "Especialização em ML Engineering",
-    journey_3: "IA adaptativa, MLOps e APIs de modelos",
-    languages_title: "Idiomas",
-    languages_list:
-      "Português nativo · Inglês intermediário · Espanhol intermediário · Italiano básico",
-
-    // --- FOOTER ---
-    footer_title: "Tem um desafio de dados?",
-    footer_subtitle: "Disponível para projetos e contratação.",
-    footer_btn: "Vamos Conversar",
+    nav_contact: "Contato",
+    nav_cv: "Baixar CV",
+    hero_eyebrow: "Olá! Eu sou Eros Nicolino.",
+    hero_title_1: "Engenheiro de",
+    hero_title_2: "Machine Learning e Dados.",
+    hero_lead: "Trabalho com Python, AWS e APIs para transformar dados e modelos em soluções que podem ser usadas no dia a dia.",
+    hero_btn_projects: "Ver projetos",
+    hero_btn_contact: "Falar comigo",
+    proof_projects: "projetos construídos",
+    proof_automation: "pipeline automatizado",
+    proof_fiap: "ML Engineering",
+    profile_note: "São Paulo, Brasil",
+    projects_kicker: "Portfólio",
+    projects_title: "Projetos em destaque",
+    projects_subtitle: "Separei três projetos que mostram melhor meu trabalho com dados, Machine Learning e backend.",
+    project_financial_desc: "Pipeline ETL da B3 orientado a eventos, do dado bruto à consulta analítica, sem infraestrutura ociosa.",
+    project_financial_metric_1: "automação via eventos",
+    project_financial_metric_2: "servidores em idle",
+    project_adaptive_title: "Recomendação Adaptativa de Ofertas",
+    project_adaptive_desc: "Motor que aprende com cada interação e prioriza a próxima melhor oferta usando multi-armed bandits.",
+    project_adaptive_metric_1: "conversão simulada",
+    project_adaptive_metric_2: "modelo servido online",
+    project_aero_title: "AeroPredict — Atrasos de Voos",
+    project_aero_desc: "Pipeline de classificação com prevenção de data leakage, validação estratificada e explicação das variáveis.",
+    project_aero_metric_2: "vazamento de dados",
+    view_case: "Ver código e documentação",
+    more_projects_title: "Outros projetos",
+    more_projects_subtitle: "Explorações em backend, apps e algoritmos.",
+    mini_ifood_desc: "App desktop para gestão de entregas, indicadores e predição de rentabilidade por bairro.",
+    mini_livelink_desc: "Vídeo P2P em tempo real com arquitetura mesh e latência abaixo de 300 ms.",
+    mini_pong_desc: "Agente DQN treinado com PyTorch em mais de 50 mil iterações.",
+    mini_books_desc: "API documentada com autenticação JWT, scraping e execução em contêiner.",
+    mini_battleship_desc: "IA tática que usa mapas de probabilidade para escolher cada jogada.",
+    skills_kicker: "Conhecimentos",
+    skills_title: "Tecnologias que uso no dia a dia",
+    skills_subtitle: "Organizei aqui as principais ferramentas com que já trabalhei nos meus projetos.",
+    skill_ml_title: "Machine Learning Systems",
+    skill_ml_desc: "Modelagem, validação rigorosa, rastreamento de experimentos e disponibilização de modelos.",
+    skill_data_title: "Data & Cloud Engineering",
+    skill_data_desc: "Pipelines orientados a eventos, processamento confiável e consultas analíticas na AWS.",
+    skill_prod_title: "Production Engineering",
+    skill_prod_desc: "APIs, contêineres, bancos e práticas para transformar protótipos em serviços utilizáveis.",
+    about_kicker: "Sobre mim",
+    about_title: "Minha trajetória",
+    about_text: "Sou formado em Gestão de TI e concluí a pós-graduação em ML Engineering na FIAP. Nos meus projetos, procuro unir dados, programação e uma visão prática do problema que precisa ser resolvido.",
+    timeline_1_title: "ML Engineering · FIAP",
+    timeline_1_desc: "Pós-graduação concluída com foco em modelos, MLOps e APIs de Machine Learning.",
+    timeline_2_title: "Gestão de TI · FAM",
+    timeline_2_desc: "Formação concluída com base em sistemas, infraestrutura e gestão.",
+    timeline_3_title: "Experiência prática",
+    timeline_3_desc: "Projetos independentes e atuação freelance em suporte técnico e infraestrutura.",
+    languages_label: "Idiomas",
+    languages_list: "Português nativo · Inglês intermediário · Espanhol intermediário · Italiano básico",
+    contact_kicker: "Contato",
+    contact_title: "Quer conversar?",
+    contact_text: "Estou buscando oportunidades em Machine Learning e Engenharia de Dados. Se meu perfil fizer sentido para o seu time, pode me chamar.",
+    contact_button: "Enviar e-mail",
+    footer_note: "Machine Learning · Data · Cloud",
+    footer_back: "Voltar ao topo ↑",
   },
-
   en: {
-    // --- META & NAVIGATION ---
-    site_title: "Eros Nicolino — AI & Machine Learning Engineer",
-    nav_home: "Home",
+    site_title: "Eros Nicolino — ML & Data Engineer",
+    site_description: "Eros Nicolino's portfolio. Machine Learning and Data Engineer focused on Python, MLOps, AWS, and production-ready systems.",
+    skip_link: "Skip to content",
     nav_projects: "Projects",
-    nav_skills: "Skills",
+    nav_expertise: "Expertise",
     nav_journey: "Journey",
-    nav_cv: "Resume ↓",
-
-    // --- HERO SECTION ---
-    hero_title:
-      'AI & Machine Learning Engineer<br /><span class="italic-accent">Python · MLOps · Data Engineering.</span>',
-    hero_lead:
-      "Data engineering focused on cost reduction and scalability. Transforming raw data into business intelligence with robust AWS architectures.",
-    hero_btn_projects: "View Projects & Impact",
-    hero_btn_contact: "Get in Touch",
-
-    // --- PROJECTS SECTION ---
-    projects_title: "Impactful Projects",
-    projects_subtitle:
-      "Architectures designed for performance and cost efficiency.",
-    impact_label: "Impact:",
-    filter_featured: "Featured",
-    filter_all: "All",
-    filter_apps: "Apps & Frontend",
-    metric_automation: "event-driven automation",
-    metric_simulated_conversion: "conversion in simulation",
-    metric_validation: "stratified validation",
-
-    // Buttons
-    btn_github: "GitHub & Docs",
-    btn_demo: "Live Demo",
-
-    // Project 1: Financial Pipeline
-    proj_2_title: "Financial Data Pipeline",
-    proj_2_desc:
-      "ETL pipeline processing B3 financial data using event-driven architecture for real-time availability.",
-    proj_2_metric_1: "✅ Zero Idle Cost (Serverless)",
-    proj_2_metric_2: "✅ 100% Automation via EventBridge",
-
-    // Project 2: WebRTC
-    proj_3_title: "LiveLink Streaming",
-    proj_3_desc:
-      "P2P video system eliminating the cost of intermediate media servers.",
-    proj_3_metric_1: "✅ Sub-300ms Latency",
-    proj_3_metric_2: "✅ P2P Horizontal Scalability",
-
-    // Project 3: AeroPredict (NEW)
-    proj_6_title: "AeroPredict — Flight Delay Prediction",
-    proj_6_desc:
-      "End-to-end Machine Learning pipeline for flight delay prediction using structured aviation data, featuring leakage prevention, stratified cross-validation, and model benchmarking.",
-    proj_6_metric_1: "✅ Data Leakage-Free Pipeline",
-    proj_6_metric_2: "✅ ROC-AUC ~0.64 with Stratified Validation",
-    proj_6_metric_3: "✅ Feature Importance Analysis & Model Benchmarking",
-
-    // Project 7: Adaptive Offer Recommendation
-    proj_7_title: "Adaptive Offer Recommendation",
-    proj_7_desc:
-      "Adaptive engine that prioritizes digital offers using multi-armed bandits and contact history, served through a FastAPI API.",
-    proj_7_metric_1:
-      "✅ 66.34% vs. 11.56% baseline in simulation",
-    proj_7_metric_2: "✅ Online API and MLflow experiment tracking",
-
-    // Project 8: iFood Manager
-    proj_8_title: "iFood Manager",
-    proj_8_desc:
-      "Desktop app for financial and operational delivery management, featuring KPIs, reports, and neighborhood profitability prediction.",
-    proj_8_metric_1: "✅ Local SQLite management with web fallback",
-    proj_8_metric_2: "✅ Contextual prediction using weather and history",
-
-    // Project 4: Pong AI
-    proj_1_title: "Pong AI Agent (DQN)",
-    proj_1_desc:
-      "Autonomous agent trained with Deep Q-Networks demonstrating complex reward logic.",
-    proj_1_metric_1: "✅ +50,000 training iterations",
-    proj_1_metric_2: "✅ Win rate > 95%",
-
-    // Project 5: Books API
-    proj_4_title: "Enterprise Books API",
-    proj_4_desc:
-      "Production-ready API featuring automatic documentation and secure authentication.",
-    proj_4_metric_1: "✅ Secure Auth (JWT)",
-    proj_4_metric_2: "✅ Integrated Scraping Pipeline",
-
-    // Project 6: Battleship
-    proj_5_title: "Probabilistic Battleship",
-    proj_5_desc:
-      "Tactical AI powered by real-time probabilistic heatmaps calculating the statistically optimal move each turn.",
-    proj_5_metric_1: "✅ Purely statistical decision-making",
-    proj_5_metric_2: "✅ Real-time Heatmaps",
-
-    // --- SKILLS & ABOUT ---
-    skills_ai_title: "AI & Machine Learning",
-    skills_data_title: "Data & Cloud",
-    skills_backend_title: "Backend & Systems",
-    skills_apps_title: "Frontend & Apps",
-    about_title: "Technical Journey",
-    about_p1:
-      "My focus is solving complex business problems using data. With a strong foundation in mathematics and algorithms, I bridge scalable AWS data infrastructure and high-performance backend engineering.",
-    edu_1_title: "Postgrad: ML Engineering",
-    edu_1_school: "FIAP (Completed · Aug 2025–Aug 2026)",
-    edu_2_title: "IT Management",
-    edu_2_school: "FAM (Completed · Jan 2023–Jul 2025 · 2.5 years)",
-    journey_1: "Freelance technical support and infrastructure",
-    journey_2: "Specialization in ML Engineering",
-    journey_3: "Adaptive AI, MLOps, and model APIs",
-    languages_title: "Languages",
-    languages_list:
-      "Native Portuguese · Intermediate English · Intermediate Spanish · Basic Italian",
-
-    // --- FOOTER ---
-    footer_title: "Have a data challenge?",
-    footer_subtitle: "Available for projects and hiring.",
-    footer_btn: "Let's Talk",
+    nav_contact: "Contact",
+    nav_cv: "Download CV",
+    hero_eyebrow: "Hi! I'm Eros Nicolino.",
+    hero_title_1: "Machine Learning and",
+    hero_title_2: "Data Engineer.",
+    hero_lead: "I work with Python, AWS, and APIs to turn data and models into solutions that people can use every day.",
+    hero_btn_projects: "View projects",
+    hero_btn_contact: "Talk to me",
+    proof_projects: "projects built",
+    proof_automation: "automated pipeline",
+    proof_fiap: "ML Engineering",
+    profile_note: "São Paulo, Brazil",
+    projects_kicker: "Portfolio",
+    projects_title: "Featured projects",
+    projects_subtitle: "These three projects best show my work with data, Machine Learning, and backend development.",
+    project_financial_desc: "Event-driven B3 ETL pipeline, from raw data to analytical queries, with no idle infrastructure.",
+    project_financial_metric_1: "event-driven automation",
+    project_financial_metric_2: "idle servers",
+    project_adaptive_title: "Adaptive Offer Recommendation",
+    project_adaptive_desc: "An engine that learns from each interaction and prioritizes the next best offer using multi-armed bandits.",
+    project_adaptive_metric_1: "simulated conversion",
+    project_adaptive_metric_2: "model served online",
+    project_aero_title: "AeroPredict — Flight Delays",
+    project_aero_desc: "Classification pipeline with data leakage prevention, stratified validation, and feature explanation.",
+    project_aero_metric_2: "data leakage",
+    view_case: "View code and documentation",
+    more_projects_title: "Other projects",
+    more_projects_subtitle: "Explorations in backend, apps, and algorithms.",
+    mini_ifood_desc: "Desktop app for delivery management, metrics, and neighborhood profitability prediction.",
+    mini_livelink_desc: "Real-time P2P video with mesh architecture and latency below 300 ms.",
+    mini_pong_desc: "DQN agent trained with PyTorch over more than 50,000 iterations.",
+    mini_books_desc: "Documented API with JWT authentication, scraping, and containerized execution.",
+    mini_battleship_desc: "Tactical AI that uses probability maps to choose each move.",
+    skills_kicker: "Skills",
+    skills_title: "Technologies I use in my projects",
+    skills_subtitle: "These are the main tools I have worked with across my projects.",
+    skill_ml_title: "Machine Learning Systems",
+    skill_ml_desc: "Modeling, rigorous validation, experiment tracking, and model serving.",
+    skill_data_title: "Data & Cloud Engineering",
+    skill_data_desc: "Event-driven pipelines, reliable processing, and analytical queries on AWS.",
+    skill_prod_title: "Production Engineering",
+    skill_prod_desc: "APIs, containers, databases, and practices that turn prototypes into usable services.",
+    about_kicker: "About me",
+    about_title: "My journey",
+    about_text: "I have a degree in IT Management and completed a postgraduate program in ML Engineering at FIAP. In my projects, I try to combine data, programming, and a practical view of the problem being solved.",
+    timeline_1_title: "ML Engineering · FIAP",
+    timeline_1_desc: "Postgraduate program focused on models, MLOps, and Machine Learning APIs.",
+    timeline_2_title: "IT Management · FAM",
+    timeline_2_desc: "Degree covering systems, infrastructure, and management foundations.",
+    timeline_3_title: "Hands-on experience",
+    timeline_3_desc: "Independent projects and freelance work in technical support and infrastructure.",
+    languages_label: "Languages",
+    languages_list: "Native Portuguese · Intermediate English · Intermediate Spanish · Basic Italian",
+    contact_kicker: "Contact",
+    contact_title: "Want to talk?",
+    contact_text: "I'm looking for opportunities in Machine Learning and Data Engineering. If my profile fits your team, feel free to get in touch.",
+    contact_button: "Send an email",
+    footer_note: "Machine Learning · Data · Cloud",
+    footer_back: "Back to top ↑",
   },
 };
 
 document.addEventListener("DOMContentLoaded", () => {
   const langButtons = document.querySelectorAll(".lang-btn");
+  const metaDescription = document.querySelector('meta[name="description"]');
+  const nav = document.querySelector(".nav");
+  const navToggle = document.querySelector(".nav-toggle");
+  const header = document.querySelector(".site-header");
+  const starfield = document.querySelector(".starfield");
+
+  if (starfield) {
+    const starCount = window.innerWidth < 600 ? 48 : window.innerWidth < 900 ? 64 : 92;
+    const colors = ["#ffffff", "#ffffff", "#ffffff", "#c4b5fd", "#a78bfa", "#dbeafe"];
+    const stars = document.createDocumentFragment();
+    const moveStar = (star) => {
+      star.style.left = `${Math.random() * 100}%`;
+      star.style.top = `${Math.random() * 100}%`;
+    };
+
+    for (let index = 0; index < starCount; index += 1) {
+      const star = document.createElement("span");
+      const isBright = Math.random() > 0.88;
+      const size = isBright ? 1.8 + Math.random() * 1.7 : 0.7 + Math.random() * 1.3;
+
+      star.className = "star";
+      moveStar(star);
+      star.style.setProperty("--star-size", `${size.toFixed(2)}px`);
+      star.style.setProperty("--star-color", colors[Math.floor(Math.random() * colors.length)]);
+      star.style.setProperty("--star-opacity", (0.3 + Math.random() * 0.7).toFixed(2));
+      star.style.setProperty("--star-duration", `${(4.5 + Math.random() * 7.5).toFixed(2)}s`);
+      star.style.setProperty("--star-delay", `${(-Math.random() * 12).toFixed(2)}s`);
+      star.addEventListener("animationiteration", () => moveStar(star));
+      stars.appendChild(star);
+    }
+
+    starfield.appendChild(stars);
+  }
+
+  const closeMenu = () => {
+    nav?.setAttribute("data-visible", "false");
+    navToggle?.setAttribute("aria-expanded", "false");
+    navToggle?.setAttribute("aria-label", document.documentElement.lang === "en" ? "Open navigation menu" : "Abrir menu de navegação");
+    document.body.classList.remove("menu-open");
+  };
 
   const setLanguage = (lang) => {
-    const langData = translations[lang] || translations["pt"];
-
+    const selected = translations[lang] || translations.pt;
     document.querySelectorAll("[data-lang-key]").forEach((element) => {
-      const key = element.getAttribute("data-lang-key");
-      if (langData[key]) {
-        element.innerHTML = langData[key];
-      }
+      const value = selected[element.dataset.langKey];
+      if (value) element.textContent = value;
     });
-
-    document.documentElement.lang = lang;
-
-    langButtons.forEach((btn) => {
-      btn.classList.toggle("active", btn.getAttribute("data-lang") === lang);
-      btn.setAttribute(
-        "aria-pressed",
-        btn.getAttribute("data-lang") === lang ? "true" : "false",
-      );
+    document.documentElement.lang = lang === "en" ? "en" : "pt-BR";
+    document.title = selected.site_title;
+    metaDescription?.setAttribute("content", selected.site_description);
+    langButtons.forEach((button) => {
+      const isActive = button.dataset.lang === lang;
+      button.classList.toggle("active", isActive);
+      button.setAttribute("aria-pressed", String(isActive));
     });
-
     localStorage.setItem("preferredLanguage", lang);
   };
 
-  langButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-      setLanguage(button.getAttribute("data-lang"));
-    });
-  });
-
+  langButtons.forEach((button) => button.addEventListener("click", () => setLanguage(button.dataset.lang)));
   setLanguage(localStorage.getItem("preferredLanguage") || "pt");
 
-  // Mobile Menu
-  const navToggle = document.querySelector(".nav-toggle");
-  const nav = document.querySelector(".nav");
-
-  if (navToggle && nav) {
-    navToggle.addEventListener("click", () => {
-      const isVisible = nav.getAttribute("data-visible") === "true";
-      nav.setAttribute("data-visible", !isVisible);
-      navToggle.setAttribute("aria-expanded", String(!isVisible));
-    });
-
-    document.querySelectorAll(".nav-list a").forEach((link) => {
-      link.addEventListener("click", () => {
-        nav.setAttribute("data-visible", "false");
-        navToggle.setAttribute("aria-expanded", "false");
-      });
-    });
-  }
-
-  // Project filters
-  const filterButtons = document.querySelectorAll(".filter-btn");
-  const projectCards = document.querySelectorAll(".project-card");
-
-  const filterProjects = (filter) => {
-    projectCards.forEach((card) => {
-      const categories = card.dataset.category?.split(" ") || [];
-      const shouldShow =
-        filter === "all" ||
-        (filter === "featured" && card.classList.contains("featured")) ||
-        categories.includes(filter);
-
-      card.classList.toggle("filtered-out", !shouldShow);
-      card.setAttribute("aria-hidden", String(!shouldShow));
-    });
-  };
-
-  filterButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-      filterButtons.forEach((item) => {
-        const selected = item === button;
-        item.classList.toggle("active", selected);
-        item.setAttribute("aria-pressed", String(selected));
-      });
-      filterProjects(button.dataset.filter);
-    });
+  navToggle?.addEventListener("click", () => {
+    const willOpen = nav?.getAttribute("data-visible") !== "true";
+    nav?.setAttribute("data-visible", String(willOpen));
+    navToggle.setAttribute("aria-expanded", String(willOpen));
+    navToggle.setAttribute("aria-label", willOpen ? (document.documentElement.lang === "en" ? "Close navigation menu" : "Fechar menu de navegação") : (document.documentElement.lang === "en" ? "Open navigation menu" : "Abrir menu de navegação"));
+    document.body.classList.toggle("menu-open", willOpen);
   });
 
-  filterProjects("featured");
+  nav?.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeMenu));
+  document.addEventListener("keydown", (event) => { if (event.key === "Escape") closeMenu(); });
+  window.addEventListener("resize", () => { if (window.innerWidth > 820) closeMenu(); });
 
-  // Header state on scroll
-  const header = document.querySelector(".site-header");
-  const updateHeader = () => header?.classList.toggle("scrolled", scrollY > 24);
+  const updateHeader = () => header?.classList.toggle("scrolled", window.scrollY > 18);
   updateHeader();
-  addEventListener("scroll", updateHeader, { passive: true });
+  window.addEventListener("scroll", updateHeader, { passive: true });
 
-  // Scroll Reveal
-  const prefersReducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const revealElements = document.querySelectorAll(".scroll-reveal, .reveal-item");
-  const counters = document.querySelectorAll("[data-counter]");
+  const revealItems = document.querySelectorAll(".scroll-reveal, .reveal-item");
+  revealItems.forEach((item, index) => item.style.setProperty("--reveal-order", index % 4));
 
-  const animateCounter = (element) => {
-    if (element.dataset.animated === "true") return;
-    element.dataset.animated = "true";
-    const target = Number(element.dataset.counter);
-    const decimals = Number(element.dataset.decimals || 0);
-    const prefix = element.dataset.prefix || "";
-    const suffix = element.dataset.suffix || "";
-    const locale = document.documentElement.lang === "en" ? "en-US" : "pt-BR";
-    const formatter = new Intl.NumberFormat(locale, {
-      minimumFractionDigits: decimals,
-      maximumFractionDigits: decimals,
-    });
-    const start = performance.now();
-    const duration = 900;
-
-    const tick = (now) => {
-      const progress = Math.min((now - start) / duration, 1);
-      const eased = 1 - Math.pow(1 - progress, 3);
-      element.textContent = `${prefix}${formatter.format(target * eased)}${suffix}`;
-      if (progress < 1) requestAnimationFrame(tick);
-    };
-
-    requestAnimationFrame(tick);
-  };
-
-  revealElements.forEach((element, index) => {
-    element.style.setProperty("--reveal-order", index % 6);
-  });
-
-  if (prefersReducedMotion) {
-    revealElements.forEach((element) => element.classList.add("visible"));
-    return;
-  }
-
-  const observer = new IntersectionObserver(
-    (entries) => {
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches || !("IntersectionObserver" in window)) {
+    revealItems.forEach((item) => item.classList.add("visible"));
+  } else {
+    const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("visible");
-          entry.target.querySelectorAll?.("[data-counter]").forEach(animateCounter);
+          observer.unobserve(entry.target);
         }
       });
-    },
-    { threshold: 0.08 },
-  );
-
-  revealElements.forEach((el) => observer.observe(el));
+    }, { threshold: 0.08, rootMargin: "0px 0px -30px" });
+    revealItems.forEach((item) => observer.observe(item));
+  }
 });

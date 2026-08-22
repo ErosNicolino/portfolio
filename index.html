@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title data-lang-key="site_title">Eros Nicolino — Software Engineer</title>
+    <title data-lang-key="site_title">
+      Eros Nicolino — AI & Machine Learning Engineer
+    </title>
 
     <meta
       name="description"
-      content="Data Engineer specializing in AWS, Python, and Serverless Architectures. Transforming data into business value."
+      content="AI and Machine Learning Engineer specializing in Python, MLOps, and Data Engineering."
     />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,7 +37,9 @@
                 <a href="#projects" data-lang-key="nav_projects">Projetos</a>
               </li>
               <li><a href="#skills" data-lang-key="nav_skills">Skills</a></li>
-              <li><a href="#about" data-lang-key="nav_about">Sobre</a></li>
+              <li>
+                <a href="#about" data-lang-key="nav_journey">Trajetória</a>
+              </li>
             </ul>
           </nav>
 
@@ -48,9 +52,9 @@
               >CV ↓</a
             >
             <div class="lang-switcher">
-              <button class="lang-btn active" data-lang="pt">BR</button>
+              <button class="lang-btn active" data-lang="pt" aria-label="Usar português" aria-pressed="true">BR</button>
               <span class="divider">/</span>
-              <button class="lang-btn" data-lang="en">EN</button>
+              <button class="lang-btn" data-lang="en" aria-label="Use English" aria-pressed="false">EN</button>
             </div>
           </div>
 
@@ -58,6 +62,7 @@
             class="nav-toggle"
             aria-controls="primary-navigation"
             aria-expanded="false"
+            aria-label="Abrir menu de navegação"
           >
             <span class="hamburger"></span>
           </button>
@@ -70,8 +75,10 @@
         <div class="container hero-inner">
           <div class="hero-content reveal-group">
             <h1 class="reveal-item" data-lang-key="hero_title">
-              Data Engineer | AWS | Python<br />
-              <span class="italic-accent">Serverless Pipelines.</span>
+              Engenheiro de IA e Machine Learning<br />
+              <span class="italic-accent"
+                >Python · MLOps · Engenharia de Dados.</span
+              >
             </h1>
             <p class="lead reveal-item" data-lang-key="hero_lead">
               Engenharia de dados focada em redução de custos e escalabilidade.
@@ -109,8 +116,17 @@
             </p>
           </div>
 
+          <div class="project-filters scroll-reveal" aria-label="Filtros de projetos">
+            <button class="filter-btn active" type="button" data-filter="featured" data-lang-key="filter_featured">Destaques</button>
+            <button class="filter-btn" type="button" data-filter="ai">IA & ML</button>
+            <button class="filter-btn" type="button" data-filter="data">Data & Cloud</button>
+            <button class="filter-btn" type="button" data-filter="backend">Backend</button>
+            <button class="filter-btn" type="button" data-filter="apps" data-lang-key="filter_apps">Apps & Frontend</button>
+            <button class="filter-btn" type="button" data-filter="all" data-lang-key="filter_all">Todos</button>
+          </div>
+
           <div class="projects-gallery">
-            <article class="project-card scroll-reveal">
+            <article class="project-card featured scroll-reveal" data-category="data backend">
               <div class="card-image">
                 <img
                   src="assets/Diagrama.png"
@@ -126,6 +142,10 @@
                   Pipeline ETL processando dados da B3. Arquitetura orientada a
                   eventos.
                 </p>
+                <div class="metric-highlight" aria-label="100% de automação">
+                  <strong data-counter="100" data-decimals="0" data-suffix="%">100%</strong>
+                  <span data-lang-key="metric_automation">automação orientada a eventos</span>
+                </div>
 
                 <div class="impact-box">
                   <span class="impact-title" data-lang-key="impact_label"
@@ -153,7 +173,57 @@
               </div>
             </article>
 
-            <article class="project-card scroll-reveal">
+            <article class="project-card featured scroll-reveal" data-category="ai backend">
+              <div class="card-image">
+                <img
+                  src="assets/datathon.png"
+                  alt="Experimentos do Thompson Sampling registrados no MLflow"
+                  loading="lazy"
+                />
+                <div class="badge">Adaptive AI</div>
+              </div>
+              <div class="card-content">
+                <h3 data-lang-key="proj_7_title">Adaptive Offer Recommendation</h3>
+                <p class="tech-stack">
+                  Python • Thompson Sampling • FastAPI • MLflow
+                </p>
+                <p class="desc" data-lang-key="proj_7_desc">
+                  Motor adaptativo que prioriza ofertas digitais usando
+                  multi-armed bandits e histórico de contatos.
+                </p>
+                <div class="metric-highlight" aria-label="66,34% de conversão simulada">
+                  <strong data-counter="66.34" data-decimals="2" data-suffix="%">66,34%</strong>
+                  <span data-lang-key="metric_simulated_conversion">conversão na simulação</span>
+                </div>
+
+                <div class="impact-box">
+                  <span class="impact-title" data-lang-key="impact_label"
+                    >Impacto:</span
+                  >
+                  <ul class="impact-list">
+                    <li data-lang-key="proj_7_metric_1">
+                      ✅ 66,34% de conversão na simulação
+                    </li>
+                    <li data-lang-key="proj_7_metric_2">
+                      ✅ API online e experimentos rastreados
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="card-actions">
+                  <a
+                    href="https://github.com/ErosNicolino/datathon-7mlet"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="link-arrow"
+                    data-lang-key="btn_github"
+                    >GitHub & Docs <span class="arrow">↗</span></a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card featured scroll-reveal" data-category="ai data">
               <div class="card-image">
                 <img
                   src="assets/aeropredict.png"
@@ -177,6 +247,10 @@
                   de voos com validação cruzada estratificada e análise de
                   importância de variáveis.
                 </p>
+                <div class="metric-highlight" aria-label="ROC-AUC de 0,64">
+                  <strong data-counter="0.64" data-decimals="2" data-prefix="ROC-AUC ">ROC-AUC 0,64</strong>
+                  <span data-lang-key="metric_validation">validação estratificada</span>
+                </div>
 
                 <div class="impact-box">
                   <span class="impact-title" data-lang-key="impact_label"
@@ -205,7 +279,42 @@
               </div>
             </article>
 
-            <article class="project-card scroll-reveal">
+            <article class="project-card scroll-reveal" data-category="apps frontend backend ai">
+              <div class="card-image app-card-image">
+                <img
+                  src="assets/ifood-manager.png"
+                  alt="Identidade visual do aplicativo iFood Manager"
+                  loading="lazy"
+                />
+                <div class="badge">Desktop App</div>
+              </div>
+              <div class="card-content">
+                <h3 data-lang-key="proj_8_title">iFood Manager</h3>
+                <p class="tech-stack">React • TypeScript • Tauri • Rust • SQLite</p>
+                <p class="desc" data-lang-key="proj_8_desc">
+                  Aplicativo desktop para gestão financeira e operacional de entregas, com indicadores, relatórios e predição de rentabilidade por bairro.
+                </p>
+                <div class="impact-box">
+                  <span class="impact-title" data-lang-key="impact_label">Impacto:</span>
+                  <ul class="impact-list">
+                    <li data-lang-key="proj_8_metric_1">✅ Gestão local com SQLite e fallback web</li>
+                    <li data-lang-key="proj_8_metric_2">✅ Predição contextual com clima e histórico</li>
+                  </ul>
+                </div>
+                <div class="card-actions">
+                  <a
+                    href="https://github.com/ErosNicolino/Ifood_Manager"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="link-arrow"
+                    data-lang-key="btn_github"
+                    >GitHub & Docs <span class="arrow">↗</span></a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card scroll-reveal" data-category="backend">
               <div class="card-image">
                 <img
                   src="assets/Primeiro Teste.gif"
@@ -247,7 +356,7 @@
               </div>
             </article>
 
-            <article class="project-card scroll-reveal">
+            <article class="project-card scroll-reveal" data-category="ai">
               <div class="card-image">
                 <img src="assets/PongWin.gif" alt="Pong AI" loading="lazy" />
                 <div class="badge">Machine Learning</div>
@@ -285,7 +394,7 @@
               </div>
             </article>
 
-            <article class="project-card scroll-reveal">
+            <article class="project-card scroll-reveal" data-category="backend data">
               <div class="card-image">
                 <img
                   src="assets/project-2.jpg"
@@ -332,7 +441,7 @@
               </div>
             </article>
 
-            <article class="project-card scroll-reveal">
+            <article class="project-card scroll-reveal" data-category="ai">
               <div class="card-image">
                 <img
                   src="assets/heatmap-demo.png"
@@ -387,38 +496,61 @@
         <div class="container">
           <div class="skills-grid">
             <div class="skill-group scroll-reveal">
-              <h3 data-lang-key="skills_ai_title">Data Engineering & AI</h3>
-              <div class="skill-bar-container">
-                <span>Python / Pandas / NumPy</span>
-                <div class="bar">
-                  <div class="fill" style="width: 95%"></div>
-                </div>
+              <h3 data-lang-key="skills_ai_title">IA & Machine Learning</h3>
+              <div class="skill-list">
+                <span>Python</span>
+                <span>Scikit-Learn</span>
+                <span>PyTorch</span>
+                <span>Pandas</span>
+                <span>NumPy</span>
+                <span>MLflow</span>
+                <span>Reinforcement Learning</span>
               </div>
-              <div class="skill-bar-container">
-                <span>AWS (Glue, Lambda, Athena)</span>
-                <div class="bar">
-                  <div class="fill" style="width: 90%"></div>
-                </div>
-              </div>
-              <div class="skill-bar-container">
-                <span>SQL & Modeling</span>
-                <div class="bar">
-                  <div class="fill" style="width: 85%"></div>
-                </div>
+            </div>
+
+            <div class="skill-group scroll-reveal">
+              <h3 data-lang-key="skills_data_title">Data & Cloud</h3>
+              <div class="skill-list">
+                <span>AWS Glue</span>
+                <span>Lambda</span>
+                <span>S3</span>
+                <span>Athena</span>
+                <span>SQL</span>
+                <span>Data Modeling</span>
+                <span>EventBridge</span>
               </div>
             </div>
 
             <div class="skill-group scroll-reveal">
               <h3 data-lang-key="skills_backend_title">Backend & Systems</h3>
               <div class="skill-list">
-                <span>Docker</span>
                 <span>FastAPI</span>
+                <span>Flask</span>
+                <span>Streamlit</span>
+                <span>Swagger / OpenAPI</span>
+                <span>Docker</span>
                 <span>PostgreSQL</span>
                 <span>WebRTC</span>
                 <span>Linux</span>
+                <span>Windows</span>
                 <span>Git/CI/CD</span>
                 <span>Rest APIs</span>
                 <span>Redis</span>
+              </div>
+            </div>
+
+            <div class="skill-group scroll-reveal">
+              <h3 data-lang-key="skills_apps_title">Frontend & Apps</h3>
+              <div class="skill-list">
+                <span>React</span>
+                <span>TypeScript</span>
+                <span>Vite</span>
+                <span>Tailwind CSS</span>
+                <span>Framer Motion</span>
+                <span>Recharts</span>
+                <span>Tauri</span>
+                <span>Rust</span>
+                <span>SQLite</span>
               </div>
             </div>
           </div>
@@ -430,7 +562,7 @@
           <div class="about-grid">
             <div class="about-text scroll-reveal">
               <h2 class="section-title" data-lang-key="about_title">
-                Background Técnico
+                Trajetória Técnica
               </h2>
               <p data-lang-key="about_p1">
                 Meu foco é resolver problemas de negócio complexos usando dados.
@@ -439,21 +571,39 @@
                 desenvolvimento de software backend de alta performance.
               </p>
 
+              <div class="journey-highlights">
+                <div><strong>2025</strong><span data-lang-key="journey_1">Freelance em suporte técnico e infraestrutura</span></div>
+                <div><strong>2025–26</strong><span data-lang-key="journey_2">Especialização em ML Engineering</span></div>
+                <div><strong>2026</strong><span data-lang-key="journey_3">IA adaptativa, MLOps e APIs de modelos</span></div>
+              </div>
+
+              <div class="language-summary">
+                <strong data-lang-key="languages_title">Idiomas</strong>
+                <span data-lang-key="languages_list"
+                  >Português nativo · Inglês intermediário · Espanhol
+                  intermediário · Italiano básico</span
+                >
+              </div>
+
               <div class="education-list">
                 <div class="edu-item">
-                  <span class="year">2026</span>
+                  <span class="year">2025–2026</span>
                   <div class="details">
                     <strong data-lang-key="edu_1_title"
                       >Pós-Graduação: ML Engineering</strong
                     >
-                    <span data-lang-key="edu_1_school">FIAP (Cursando)</span>
+                    <span data-lang-key="edu_1_school"
+                      >FIAP (Concluída · ago/2025–ago/2026)</span
+                    >
                   </div>
                 </div>
                 <div class="edu-item">
-                  <span class="year">2025</span>
+                  <span class="year">2023–2025</span>
                   <div class="details">
                     <strong data-lang-key="edu_2_title">Gestão de TI</strong>
-                    <span data-lang-key="edu_2_school">FAM (Concluído)</span>
+                    <span data-lang-key="edu_2_school"
+                      >FAM (Concluído · jan/2023–jul/2025 · 2 anos e meio)</span
+                    >
                   </div>
                 </div>
               </div>

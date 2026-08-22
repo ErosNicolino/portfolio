@@ -1,16 +1,16 @@
 const translations = {
   pt: {
     // --- META & NAVIGATION ---
-    site_title: "Eros Nicolino — Engenheiro de Dados",
+    site_title: "Eros Nicolino — Engenheiro de IA e Machine Learning",
     nav_home: "Home",
     nav_projects: "Projetos",
     nav_skills: "Skills",
-    nav_about: "Sobre",
+    nav_journey: "Trajetória",
     nav_cv: "CV ↓",
 
     // --- HERO SECTION ---
     hero_title:
-      'Data Engineer | AWS | Python<br /><span class="italic-accent">Serverless Pipelines.</span>',
+      'Engenheiro de IA e Machine Learning<br /><span class="italic-accent">Python · MLOps · Engenharia de Dados.</span>',
     hero_lead:
       "Engenharia de dados focada em redução de custos e escalabilidade. Transformo dados brutos em inteligência de negócio com arquiteturas AWS robustas.",
     hero_btn_projects: "Ver Projetos & Impacto",
@@ -21,6 +21,12 @@ const translations = {
     projects_subtitle:
       "Arquiteturas desenhadas para performance e eficiência de custos.",
     impact_label: "Impacto:",
+    filter_featured: "Destaques",
+    filter_all: "Todos",
+    filter_apps: "Apps & Frontend",
+    metric_automation: "automação orientada a eventos",
+    metric_simulated_conversion: "conversão na simulação",
+    metric_validation: "validação estratificada",
 
     // Buttons
     btn_github: "GitHub & Docs",
@@ -70,16 +76,39 @@ const translations = {
     proj_6_metric_3:
       "✅ Análise de importância de variáveis e benchmark entre modelos",
 
+    // Project 7: Adaptive Offer Recommendation
+    proj_7_title: "Recomendação Adaptativa de Ofertas",
+    proj_7_desc:
+      "Motor adaptativo que prioriza ofertas digitais com multi-armed bandits e histórico de contatos, exposto por uma API FastAPI.",
+    proj_7_metric_1:
+      "✅ 66,34% vs. 11,56% da baseline em simulação",
+    proj_7_metric_2: "✅ API online e experimentos rastreados com MLflow",
+
+    // Project 8: iFood Manager
+    proj_8_title: "iFood Manager",
+    proj_8_desc:
+      "Aplicativo desktop para gestão financeira e operacional de entregas, com indicadores, relatórios e predição de rentabilidade por bairro.",
+    proj_8_metric_1: "✅ Gestão local com SQLite e fallback web",
+    proj_8_metric_2: "✅ Predição contextual com clima e histórico",
+
     // --- SKILLS & ABOUT ---
-    skills_ai_title: "Data Engineering & AI",
+    skills_ai_title: "IA & Machine Learning",
+    skills_data_title: "Data & Cloud",
     skills_backend_title: "Backend & Systems",
-    about_title: "Background Técnico",
+    skills_apps_title: "Frontend & Apps",
+    about_title: "Trajetória Técnica",
     about_p1:
       "Meu foco é resolver problemas de negócio complexos usando dados. Com forte base em matemática e algoritmos, transito entre infraestrutura de dados escalável na AWS e desenvolvimento backend de alta performance.",
     edu_1_title: "Pós-Graduação: ML Engineering",
-    edu_1_school: "FIAP (Cursando)",
+    edu_1_school: "FIAP (Concluída · ago/2025–ago/2026)",
     edu_2_title: "Gestão de TI",
-    edu_2_school: "FAM (Concluído)",
+    edu_2_school: "FAM (Concluído · jan/2023–jul/2025 · 2 anos e meio)",
+    journey_1: "Freelance em suporte técnico e infraestrutura",
+    journey_2: "Especialização em ML Engineering",
+    journey_3: "IA adaptativa, MLOps e APIs de modelos",
+    languages_title: "Idiomas",
+    languages_list:
+      "Português nativo · Inglês intermediário · Espanhol intermediário · Italiano básico",
 
     // --- FOOTER ---
     footer_title: "Tem um desafio de dados?",
@@ -89,16 +118,16 @@ const translations = {
 
   en: {
     // --- META & NAVIGATION ---
-    site_title: "Eros Nicolino — Data Engineer",
+    site_title: "Eros Nicolino — AI & Machine Learning Engineer",
     nav_home: "Home",
     nav_projects: "Projects",
     nav_skills: "Skills",
-    nav_about: "About",
+    nav_journey: "Journey",
     nav_cv: "Resume ↓",
 
     // --- HERO SECTION ---
     hero_title:
-      'Data Engineer | AWS | Python<br /><span class="italic-accent">Serverless Pipelines.</span>',
+      'AI & Machine Learning Engineer<br /><span class="italic-accent">Python · MLOps · Data Engineering.</span>',
     hero_lead:
       "Data engineering focused on cost reduction and scalability. Transforming raw data into business intelligence with robust AWS architectures.",
     hero_btn_projects: "View Projects & Impact",
@@ -109,6 +138,12 @@ const translations = {
     projects_subtitle:
       "Architectures designed for performance and cost efficiency.",
     impact_label: "Impact:",
+    filter_featured: "Featured",
+    filter_all: "All",
+    filter_apps: "Apps & Frontend",
+    metric_automation: "event-driven automation",
+    metric_simulated_conversion: "conversion in simulation",
+    metric_validation: "stratified validation",
 
     // Buttons
     btn_github: "GitHub & Docs",
@@ -136,6 +171,21 @@ const translations = {
     proj_6_metric_2: "✅ ROC-AUC ~0.64 with Stratified Validation",
     proj_6_metric_3: "✅ Feature Importance Analysis & Model Benchmarking",
 
+    // Project 7: Adaptive Offer Recommendation
+    proj_7_title: "Adaptive Offer Recommendation",
+    proj_7_desc:
+      "Adaptive engine that prioritizes digital offers using multi-armed bandits and contact history, served through a FastAPI API.",
+    proj_7_metric_1:
+      "✅ 66.34% vs. 11.56% baseline in simulation",
+    proj_7_metric_2: "✅ Online API and MLflow experiment tracking",
+
+    // Project 8: iFood Manager
+    proj_8_title: "iFood Manager",
+    proj_8_desc:
+      "Desktop app for financial and operational delivery management, featuring KPIs, reports, and neighborhood profitability prediction.",
+    proj_8_metric_1: "✅ Local SQLite management with web fallback",
+    proj_8_metric_2: "✅ Contextual prediction using weather and history",
+
     // Project 4: Pong AI
     proj_1_title: "Pong AI Agent (DQN)",
     proj_1_desc:
@@ -158,15 +208,23 @@ const translations = {
     proj_5_metric_2: "✅ Real-time Heatmaps",
 
     // --- SKILLS & ABOUT ---
-    skills_ai_title: "Data Engineering & AI",
+    skills_ai_title: "AI & Machine Learning",
+    skills_data_title: "Data & Cloud",
     skills_backend_title: "Backend & Systems",
-    about_title: "Technical Background",
+    skills_apps_title: "Frontend & Apps",
+    about_title: "Technical Journey",
     about_p1:
       "My focus is solving complex business problems using data. With a strong foundation in mathematics and algorithms, I bridge scalable AWS data infrastructure and high-performance backend engineering.",
     edu_1_title: "Postgrad: ML Engineering",
-    edu_1_school: "FIAP (In Progress)",
+    edu_1_school: "FIAP (Completed · Aug 2025–Aug 2026)",
     edu_2_title: "IT Management",
-    edu_2_school: "FAM (Completed)",
+    edu_2_school: "FAM (Completed · Jan 2023–Jul 2025 · 2.5 years)",
+    journey_1: "Freelance technical support and infrastructure",
+    journey_2: "Specialization in ML Engineering",
+    journey_3: "Adaptive AI, MLOps, and model APIs",
+    languages_title: "Languages",
+    languages_list:
+      "Native Portuguese · Intermediate English · Intermediate Spanish · Basic Italian",
 
     // --- FOOTER ---
     footer_title: "Have a data challenge?",
@@ -192,6 +250,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     langButtons.forEach((btn) => {
       btn.classList.toggle("active", btn.getAttribute("data-lang") === lang);
+      btn.setAttribute(
+        "aria-pressed",
+        btn.getAttribute("data-lang") === lang ? "true" : "false",
+      );
     });
 
     localStorage.setItem("preferredLanguage", lang);
@@ -213,28 +275,103 @@ document.addEventListener("DOMContentLoaded", () => {
     navToggle.addEventListener("click", () => {
       const isVisible = nav.getAttribute("data-visible") === "true";
       nav.setAttribute("data-visible", !isVisible);
+      navToggle.setAttribute("aria-expanded", String(!isVisible));
     });
 
     document.querySelectorAll(".nav-list a").forEach((link) => {
-      link.addEventListener("click", () =>
-        nav.setAttribute("data-visible", "false"),
-      );
+      link.addEventListener("click", () => {
+        nav.setAttribute("data-visible", "false");
+        navToggle.setAttribute("aria-expanded", "false");
+      });
     });
   }
 
+  // Project filters
+  const filterButtons = document.querySelectorAll(".filter-btn");
+  const projectCards = document.querySelectorAll(".project-card");
+
+  const filterProjects = (filter) => {
+    projectCards.forEach((card) => {
+      const categories = card.dataset.category?.split(" ") || [];
+      const shouldShow =
+        filter === "all" ||
+        (filter === "featured" && card.classList.contains("featured")) ||
+        categories.includes(filter);
+
+      card.classList.toggle("filtered-out", !shouldShow);
+      card.setAttribute("aria-hidden", String(!shouldShow));
+    });
+  };
+
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      filterButtons.forEach((item) => {
+        const selected = item === button;
+        item.classList.toggle("active", selected);
+        item.setAttribute("aria-pressed", String(selected));
+      });
+      filterProjects(button.dataset.filter);
+    });
+  });
+
+  filterProjects("featured");
+
+  // Header state on scroll
+  const header = document.querySelector(".site-header");
+  const updateHeader = () => header?.classList.toggle("scrolled", scrollY > 24);
+  updateHeader();
+  addEventListener("scroll", updateHeader, { passive: true });
+
   // Scroll Reveal
+  const prefersReducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const revealElements = document.querySelectorAll(".scroll-reveal, .reveal-item");
+  const counters = document.querySelectorAll("[data-counter]");
+
+  const animateCounter = (element) => {
+    if (element.dataset.animated === "true") return;
+    element.dataset.animated = "true";
+    const target = Number(element.dataset.counter);
+    const decimals = Number(element.dataset.decimals || 0);
+    const prefix = element.dataset.prefix || "";
+    const suffix = element.dataset.suffix || "";
+    const locale = document.documentElement.lang === "en" ? "en-US" : "pt-BR";
+    const formatter = new Intl.NumberFormat(locale, {
+      minimumFractionDigits: decimals,
+      maximumFractionDigits: decimals,
+    });
+    const start = performance.now();
+    const duration = 900;
+
+    const tick = (now) => {
+      const progress = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      element.textContent = `${prefix}${formatter.format(target * eased)}${suffix}`;
+      if (progress < 1) requestAnimationFrame(tick);
+    };
+
+    requestAnimationFrame(tick);
+  };
+
+  revealElements.forEach((element, index) => {
+    element.style.setProperty("--reveal-order", index % 6);
+  });
+
+  if (prefersReducedMotion) {
+    revealElements.forEach((element) => element.classList.add("visible"));
+    return;
+  }
+
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("visible");
+          entry.target.querySelectorAll?.("[data-counter]").forEach(animateCounter);
         }
       });
     },
-    { threshold: 0.1 },
+    { threshold: 0.08 },
   );
 
-  document
-    .querySelectorAll(".scroll-reveal, .reveal-item")
-    .forEach((el) => observer.observe(el));
+  revealElements.forEach((el) => observer.observe(el));
 });

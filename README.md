@@ -1,7 +1,7 @@
 <div align="center">
 
   <h1>Eros Nicolino</h1>
-  <h3>Software Engineer · Data & ML Specialist</h3>
+  <h3>AI & Machine Learning Engineer · Data Engineering</h3>
 
   <p>
     <strong>Data Engineering</strong> ·
@@ -51,6 +51,8 @@ O projeto foi construído **sem frameworks**, utilizando apenas **HTML5, CSS3 mo
 | Área             | Projeto              | Tecnologias                    | Descrição                                                   |
 | ---------------- | -------------------- | ------------------------------ | ----------------------------------------------------------- |
 | Machine Learning | AeroPredict          | Python · Scikit-Learn · Pandas | Pipeline de previsão de atrasos com validação estratificada |
+| IA Adaptativa    | Offer Recommendation | Python · FastAPI · MLflow      | Recomendação com Thompson Sampling e API online             |
+| Desktop & Web    | iFood Manager         | React · TypeScript · Tauri     | Gestão de entregas com SQLite e predição contextual         |
 | IA               | Pong AI (DQN)        | Python · Pygame                | Agente de RL treinado com +50k iterações                    |
 | Data Engineering | Serverless Pipeline  | AWS · Glue · Lambda            | ETL financeiro serverless                                   |
 | Real-Time        | LiveLink Streaming   | WebRTC · Socket.io             | Streaming P2P de baixa latência                             |
@@ -62,13 +64,13 @@ O projeto foi construído **sem frameworks**, utilizando apenas **HTML5, CSS3 mo
 ## ✦ Stack Tecnológico
 
 **Data & Machine Learning**
-Python · Pandas · NumPy · Scikit-Learn · SQL · AWS Glue
+Python · Pandas · NumPy · Scikit-Learn · PyTorch · MLflow · SQL · AWS Glue
 
 **Backend & Cloud**
-AWS · Docker · Flask · PostgreSQL
+AWS · Docker · FastAPI · Flask · Streamlit · OpenAPI · PostgreSQL
 
 **Web & Systems**
-JavaScript · WebRTC · Linux · Git
+JavaScript · TypeScript · React · Tauri · Rust · WebRTC · Linux · Git
 
 ---
 
